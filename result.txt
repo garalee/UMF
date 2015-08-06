@@ -1,0 +1,1191 @@
+['3', '7', '1', '1', '5', '4', '3', '8', '2', '7', '3', '7', '5', '4', '1', '6', '2', '7', '8', '8', '4', '4', '9', '6', '9', '2', '4', '3', '9', '5', '5', '6', '5', '5', '1']
+query similarity : Q1:  plane crash us canada border bury Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.00914634146341
+query similarity : Q1:  plane crash us canada border bury Q2: great britain 4th of july  SIMILARITY: 0.00353787263659
+query similarity : Q1:  plane crash us canada border bury Q2: great britain july4th  SIMILARITY: 0.00376454483231
+query similarity : Q1:  plane crash us canada border bury Q2: nickel  SIMILARITY: 0.000447162999194
+query similarity : Q1:  plane crash us canada border bury Q2: decade  SIMILARITY: 0.00212420790349
+query similarity : Q1:  plane crash us canada border bury Q2: plane crach victime bury  SIMILARITY: 0.338753387534
+query similarity : Q1:  plane crash us canada border bury Q2: higher transaction costs  SIMILARITY: 0.0196140461879
+query similarity : Q1:  plane crash us canada border bury Q2: marry "widows" sister california  SIMILARITY: 0.0438247011952
+query similarity : Q1:  plane crash us canada border bury Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.00914634146341
+query similarity : Q1:  plane crash us canada border bury Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.0782698249228
+query similarity : Q1:  plane crash us canada border bury Q2: high transaction  SIMILARITY: 0.0007514353875
+query similarity : Q1:  plane crash us canada border bury Q2: american coin material  SIMILARITY: 0.00573785745301
+query similarity : Q1:  plane crash us canada border bury Q2: how many months decade  SIMILARITY: 0.00203923616426
+query similarity : Q1:  plane crash us canada border bury Q2: 4th july great britain  SIMILARITY: 0.00918511540273
+query similarity : Q1:  plane crash us canada border bury Q2: Paine  SIMILARITY: 0.00376082422097
+query similarity : Q1:  plane crash us canada border bury Q2: california marry "widows" sister  SIMILARITY: 0.0398550724638
+query similarity : Q1:  plane crash us canada border bury Q2: "theres" no such thing   SIMILARITY: 0.0016602102933
+query similarity : Q1:  plane crash us canada border bury Q2: high transaction costs  SIMILARITY: 0.00272557739205
+query similarity : Q1:  plane crash us canada border bury Q2: High transaction costs will tend to  SIMILARITY: 0.00479403409091
+query similarity : Q1:  plane crash us canada border bury Q2: decade  SIMILARITY: 0.00212420790349
+query similarity : Q1:  plane crash us canada border bury Q2: how many months decade  SIMILARITY: 0.00203923616426
+query similarity : Q1:  plane crash us canada border bury Q2: group of pandas  SIMILARITY: 0.206621004566
+query similarity : Q1:  plane crash us canada border bury Q2: paine king legitimate power children  SIMILARITY: 0.653566229985
+query similarity : Q1:  plane crash us canada border bury Q2: group of panda  SIMILARITY: 0.012353304509
+query similarity : Q1:  plane crash us canada border bury Q2: widow  SIMILARITY: 0.00364946280537
+query similarity : Q1:  plane crash us canada border bury Q2: decade in years  SIMILARITY: 0.00212868935476
+query similarity : Q1:  plane crash us canada border bury Q2: high transaction costs  SIMILARITY: 0.00272557739205
+query similarity : Q1:  plane crash us canada border bury Q2: pandas  SIMILARITY: 0.00388402131695
+query similarity : Q1:  plane crash us canada border bury Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.00310559006211
+query similarity : Q1:  plane crash us canada border bury Q2: u.s coin nickel  SIMILARITY: 0.00998824911868
+query similarity : Q1:  plane crash us canada border bury Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.00192492781521
+query similarity : Q1:  plane crash us canada border bury Q2: nickle  SIMILARITY: 0.0316159250585
+query similarity : Q1:  plane crash us canada border bury Q2: 50 cent nickel  SIMILARITY: 0.0023491824845
+query similarity : Q1:  plane crash us canada border bury Q2: "4th of july" "Great Britain"  SIMILARITY: 0.0314606741573
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: plane crash us canada border bury  SIMILARITY: 0.00914634146341
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: great britain 4th of july  SIMILARITY: 0.0126692120791
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: great britain july4th  SIMILARITY: 0.015846257586
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: nickel  SIMILARITY: 0.00056295740289
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: decade  SIMILARITY: 0.00128592295216
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: plane crach victime bury  SIMILARITY: 0.0823244552058
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: higher transaction costs  SIMILARITY: 0.0160226201697
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: marry "widows" sister california  SIMILARITY: 0.00549450549451
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.602150537634
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.0186304128902
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: high transaction  SIMILARITY: 0.00228676883575
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: american coin material  SIMILARITY: 0.0087963823329
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: how many months decade  SIMILARITY: 0.00306049886131
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: 4th july great britain  SIMILARITY: 0.0166354264292
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: Paine  SIMILARITY: 0.014454333144
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: california marry "widows" sister  SIMILARITY: 0.00503355704698
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: "theres" no such thing   SIMILARITY: 0.0205768877457
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: high transaction costs  SIMILARITY: 0.013013013013
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: High transaction costs will tend to  SIMILARITY: 0.00176180408739
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: decade  SIMILARITY: 0.00128592295216
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: how many months decade  SIMILARITY: 0.00306049886131
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: group of pandas  SIMILARITY: 0.0924276169265
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: paine king legitimate power children  SIMILARITY: 0.0273597811218
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: group of panda  SIMILARITY: 0.00126773110395
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: widow  SIMILARITY: 0.0033572877518
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: decade in years  SIMILARITY: 0.00265697669209
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: high transaction costs  SIMILARITY: 0.013013013013
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: pandas  SIMILARITY: 0.0250157757144
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.0103118967794
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: u.s coin nickel  SIMILARITY: 0.0463917525773
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.000923361034164
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: nickle  SIMILARITY: 0.178818112049
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: 50 cent nickel  SIMILARITY: 0.00271383118098
+query similarity : Q1:  "theres" no such thing as a free lunch Q2: "4th of july" "Great Britain"  SIMILARITY: 0.0
+query similarity : Q1:  great britain 4th of july Q2: plane crash us canada border bury  SIMILARITY: 0.00400185593319
+query similarity : Q1:  great britain 4th of july Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.0113386555594
+query similarity : Q1:  great britain 4th of july Q2: great britain july4th  SIMILARITY: 0.79476861167
+query similarity : Q1:  great britain 4th of july Q2: nickel  SIMILARITY: 0.00358909641595
+query similarity : Q1:  great britain 4th of july Q2: decade  SIMILARITY: 0.0137442732195
+query similarity : Q1:  great britain 4th of july Q2: plane crach victime bury  SIMILARITY: 0.0462284296185
+query similarity : Q1:  great britain 4th of july Q2: higher transaction costs  SIMILARITY: 0.10910652921
+query similarity : Q1:  great britain 4th of july Q2: marry "widows" sister california  SIMILARITY: 0.061282932417
+query similarity : Q1:  great britain 4th of july Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.0113386555594
+query similarity : Q1:  great britain 4th of july Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.0243386243386
+query similarity : Q1:  great britain 4th of july Q2: high transaction  SIMILARITY: 0.0628649948471
+query similarity : Q1:  great britain 4th of july Q2: american coin material  SIMILARITY: 0.0461382113821
+query similarity : Q1:  great britain 4th of july Q2: how many months decade  SIMILARITY: 0.120033458804
+query similarity : Q1:  great britain 4th of july Q2: 4th july great britain  SIMILARITY: 7.34774066798
+query similarity : Q1:  great britain 4th of july Q2: Paine  SIMILARITY: 0.0312757201646
+query similarity : Q1:  great britain 4th of july Q2: california marry "widows" sister  SIMILARITY: 0.0633923472302
+query similarity : Q1:  great britain 4th of july Q2: "theres" no such thing   SIMILARITY: 0.0413669064748
+query similarity : Q1:  great britain 4th of july Q2: high transaction costs  SIMILARITY: 0.0125889967638
+query similarity : Q1:  great britain 4th of july Q2: High transaction costs will tend to  SIMILARITY: 0.018370960602
+query similarity : Q1:  great britain 4th of july Q2: decade  SIMILARITY: 0.0137442732195
+query similarity : Q1:  great britain 4th of july Q2: how many months decade  SIMILARITY: 0.120033458804
+query similarity : Q1:  great britain 4th of july Q2: group of pandas  SIMILARITY: 0.0935328701229
+query similarity : Q1:  great britain 4th of july Q2: paine king legitimate power children  SIMILARITY: 0.029413431567
+query similarity : Q1:  great britain 4th of july Q2: group of panda  SIMILARITY: 0.036442516269
+query similarity : Q1:  great britain 4th of july Q2: widow  SIMILARITY: 0.0136710617627
+query similarity : Q1:  great britain 4th of july Q2: decade in years  SIMILARITY: 0.154102457309
+query similarity : Q1:  great britain 4th of july Q2: high transaction costs  SIMILARITY: 0.0125889967638
+query similarity : Q1:  great britain 4th of july Q2: pandas  SIMILARITY: 0.010716112532
+query similarity : Q1:  great britain 4th of july Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.0601092896175
+query similarity : Q1:  great britain 4th of july Q2: u.s coin nickel  SIMILARITY: 0.0862808145766
+query similarity : Q1:  great britain 4th of july Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.000277824081791
+query similarity : Q1:  great britain 4th of july Q2: nickle  SIMILARITY: 0.0364241803279
+query similarity : Q1:  great britain 4th of july Q2: 50 cent nickel  SIMILARITY: 0.0157608695652
+query similarity : Q1:  great britain 4th of july Q2: "4th of july" "Great Britain"  SIMILARITY: 0.0174107912429
+query similarity : Q1:  great britain july4th Q2: plane crash us canada border bury  SIMILARITY: 0.00376454483231
+query similarity : Q1:  great britain july4th Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.0144976399191
+query similarity : Q1:  great britain july4th Q2: great britain 4th of july  SIMILARITY: 0.689134808853
+query similarity : Q1:  great britain july4th Q2: nickel  SIMILARITY: 0.050930460333
+query similarity : Q1:  great britain july4th Q2: decade  SIMILARITY: 0.00500487199929
+query similarity : Q1:  great britain july4th Q2: plane crach victime bury  SIMILARITY: 0.13634852012
+query similarity : Q1:  great britain july4th Q2: higher transaction costs  SIMILARITY: 0.0224330357143
+query similarity : Q1:  great britain july4th Q2: marry "widows" sister california  SIMILARITY: 0.134076433121
+query similarity : Q1:  great britain july4th Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.0144976399191
+query similarity : Q1:  great britain july4th Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.0296943231441
+query similarity : Q1:  great britain july4th Q2: high transaction  SIMILARITY: 0.0163667895079
+query similarity : Q1:  great britain july4th Q2: american coin material  SIMILARITY: 0.077121559633
+query similarity : Q1:  great britain july4th Q2: how many months decade  SIMILARITY: 0.0321647833437
+query similarity : Q1:  great britain july4th Q2: 4th july great britain  SIMILARITY: 3.00988319856
+query similarity : Q1:  great britain july4th Q2: Paine  SIMILARITY: 0.303383897316
+query similarity : Q1:  great britain july4th Q2: california marry "widows" sister  SIMILARITY: 0.132288401254
+query similarity : Q1:  great britain july4th Q2: "theres" no such thing   SIMILARITY: 0.00942136498516
+query similarity : Q1:  great britain july4th Q2: high transaction costs  SIMILARITY: 0.0117008443908
+query similarity : Q1:  great britain july4th Q2: High transaction costs will tend to  SIMILARITY: 0.0116082224909
+query similarity : Q1:  great britain july4th Q2: decade  SIMILARITY: 0.00500487199929
+query similarity : Q1:  great britain july4th Q2: how many months decade  SIMILARITY: 0.0321647833437
+query similarity : Q1:  great britain july4th Q2: group of pandas  SIMILARITY: 1.73576309795
+query similarity : Q1:  great britain july4th Q2: paine king legitimate power children  SIMILARITY: 1.64210526316
+query similarity : Q1:  great britain july4th Q2: group of panda  SIMILARITY: 0.0415355569541
+query similarity : Q1:  great britain july4th Q2: widow  SIMILARITY: 0.0719679457544
+query similarity : Q1:  great britain july4th Q2: decade in years  SIMILARITY: 0.0253786872176
+query similarity : Q1:  great britain july4th Q2: high transaction costs  SIMILARITY: 0.0117008443908
+query similarity : Q1:  great britain july4th Q2: pandas  SIMILARITY: 0.702179176755
+query similarity : Q1:  great britain july4th Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.0623877917415
+query similarity : Q1:  great britain july4th Q2: u.s coin nickel  SIMILARITY: 0.11797235023
+query similarity : Q1:  great britain july4th Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.0119662768561
+query similarity : Q1:  great britain july4th Q2: nickle  SIMILARITY: 2.05769230769
+query similarity : Q1:  great britain july4th Q2: 50 cent nickel  SIMILARITY: 0.0363704819277
+query similarity : Q1:  great britain july4th Q2: "4th of july" "Great Britain"  SIMILARITY: 0.0223807979241
+query similarity : Q1:  nickel Q2: plane crash us canada border bury  SIMILARITY: 0.00044164246834
+query similarity : Q1:  nickel Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.000557438212665
+query similarity : Q1:  nickel Q2: great britain 4th of july  SIMILARITY: 0.00356890459364
+query similarity : Q1:  nickel Q2: great britain july4th  SIMILARITY: 0.0504407443683
+query similarity : Q1:  nickel Q2: decade  SIMILARITY: 0.025495049505
+query similarity : Q1:  nickel Q2: plane crach victime bury  SIMILARITY: 0.00494407566202
+query similarity : Q1:  nickel Q2: higher transaction costs  SIMILARITY: 0.0475478149375
+query similarity : Q1:  nickel Q2: marry "widows" sister california  SIMILARITY: 0.00617556241729
+query similarity : Q1:  nickel Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.00056295740289
+query similarity : Q1:  nickel Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.0235776805252
+query similarity : Q1:  nickel Q2: high transaction  SIMILARITY: 0.122857142857
+query similarity : Q1:  nickel Q2: american coin material  SIMILARITY: 0.00243547630221
+query similarity : Q1:  nickel Q2: how many months decade  SIMILARITY: 0.068982630273
+query similarity : Q1:  nickel Q2: 4th july great britain  SIMILARITY: 0.242408238711
+query similarity : Q1:  nickel Q2: Paine  SIMILARITY: 0.0374588235294
+query similarity : Q1:  nickel Q2: california marry "widows" sister  SIMILARITY: 0.00562262278816
+query similarity : Q1:  nickel Q2: "theres" no such thing   SIMILARITY: 0.00195096504956
+query similarity : Q1:  nickel Q2: high transaction costs  SIMILARITY: 0.00544147843943
+query similarity : Q1:  nickel Q2: High transaction costs will tend to  SIMILARITY: 0.0174808300713
+query similarity : Q1:  nickel Q2: decade  SIMILARITY: 0.025495049505
+query similarity : Q1:  nickel Q2: how many months decade  SIMILARITY: 0.068982630273
+query similarity : Q1:  nickel Q2: group of pandas  SIMILARITY: 0.183998685724
+query similarity : Q1:  nickel Q2: paine king legitimate power children  SIMILARITY: 0.0273761326393
+query similarity : Q1:  nickel Q2: group of panda  SIMILARITY: 0.155714285714
+query similarity : Q1:  nickel Q2: widow  SIMILARITY: 0.00138311688312
+query similarity : Q1:  nickel Q2: decade in years  SIMILARITY: 0.025495049505
+query similarity : Q1:  nickel Q2: high transaction costs  SIMILARITY: 0.00544147843943
+query similarity : Q1:  nickel Q2: pandas  SIMILARITY: 0.000615763546798
+query similarity : Q1:  nickel Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.00294264339152
+query similarity : Q1:  nickel Q2: u.s coin nickel  SIMILARITY: 0.0123247151621
+query similarity : Q1:  nickel Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.000885116302083
+query similarity : Q1:  nickel Q2: nickle  SIMILARITY: 0.00286228328427
+query similarity : Q1:  nickel Q2: 50 cent nickel  SIMILARITY: 0.0537859007833
+query similarity : Q1:  nickel Q2: "4th of july" "Great Britain"  SIMILARITY: 0.00243790781178
+query similarity : Q1:  decade Q2: plane crash us canada border bury  SIMILARITY: 0.00210628209839
+query similarity : Q1:  decade Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.00265249612431
+query similarity : Q1:  decade Q2: great britain 4th of july  SIMILARITY: 0.0136193252811
+query similarity : Q1:  decade Q2: great britain july4th  SIMILARITY: 0.00863672601648
+query similarity : Q1:  decade Q2: nickel  SIMILARITY: 0.025
+query similarity : Q1:  decade Q2: plane crach victime bury  SIMILARITY: 0.0161718788498
+query similarity : Q1:  decade Q2: higher transaction costs  SIMILARITY: 0.0268348023388
+query similarity : Q1:  decade Q2: marry "widows" sister california  SIMILARITY: 0.0175053724928
+query similarity : Q1:  decade Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.00130384522327
+query similarity : Q1:  decade Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.0126779359431
+query similarity : Q1:  decade Q2: high transaction  SIMILARITY: 0.116498993964
+query similarity : Q1:  decade Q2: american coin material  SIMILARITY: 0.146217169737
+query similarity : Q1:  decade Q2: how many months decade  SIMILARITY: 0.498876404494
+query similarity : Q1:  decade Q2: 4th july great britain  SIMILARITY: 0.387291981846
+query similarity : Q1:  decade Q2: Paine  SIMILARITY: 0.00168172888016
+query similarity : Q1:  decade Q2: california marry "widows" sister  SIMILARITY: 0.0162033928651
+query similarity : Q1:  decade Q2: "theres" no such thing   SIMILARITY: 0.0161317928969
+query similarity : Q1:  decade Q2: high transaction costs  SIMILARITY: 0.0111064189189
+query similarity : Q1:  decade Q2: High transaction costs will tend to  SIMILARITY: 0.0159744408946
+query similarity : Q1:  decade Q2: decade  SIMILARITY: 0.5
+query similarity : Q1:  decade Q2: how many months decade  SIMILARITY: 0.498876404494
+query similarity : Q1:  decade Q2: group of pandas  SIMILARITY: 0.0174079515605
+query similarity : Q1:  decade Q2: paine king legitimate power children  SIMILARITY: 0.00706792815764
+query similarity : Q1:  decade Q2: group of panda  SIMILARITY: 0.0972222222222
+query similarity : Q1:  decade Q2: widow  SIMILARITY: 0.0331428571429
+query similarity : Q1:  decade Q2: decade in years  SIMILARITY: 0.5
+query similarity : Q1:  decade Q2: high transaction costs  SIMILARITY: 0.0111064189189
+query similarity : Q1:  decade Q2: pandas  SIMILARITY: 0.00131428571429
+query similarity : Q1:  decade Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.301855670103
+query similarity : Q1:  decade Q2: u.s coin nickel  SIMILARITY: 0.0018391521197
+query similarity : Q1:  decade Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.00313090394244
+query similarity : Q1:  decade Q2: nickle  SIMILARITY: 0.0452488687783
+query similarity : Q1:  decade Q2: 50 cent nickel  SIMILARITY: 0.0187580299786
+query similarity : Q1:  decade Q2: "4th of july" "Great Britain"  SIMILARITY: 0.00452300237793
+query similarity : Q1:  plane crach victime bury Q2: plane crash us canada border bury  SIMILARITY: 0.338753387534
+query similarity : Q1:  plane crach victime bury Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.0581113801453
+query similarity : Q1:  plane crach victime bury Q2: great britain 4th of july  SIMILARITY: 0.453627286893
+query similarity : Q1:  plane crach victime bury Q2: great britain july4th  SIMILARITY: 0.136015962754
+query similarity : Q1:  plane crach victime bury Q2: nickel  SIMILARITY: 0.00492752183725
+query similarity : Q1:  plane crach victime bury Q2: decade  SIMILARITY: 0.0501731421378
+query similarity : Q1:  plane crach victime bury Q2: higher transaction costs  SIMILARITY: 0.167004838458
+query similarity : Q1:  plane crach victime bury Q2: marry "widows" sister california  SIMILARITY: 0.194207836457
+query similarity : Q1:  plane crach victime bury Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.0581113801453
+query similarity : Q1:  plane crach victime bury Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.278737049827
+query similarity : Q1:  plane crach victime bury Q2: high transaction  SIMILARITY: 0.00311420830188
+query similarity : Q1:  plane crach victime bury Q2: american coin material  SIMILARITY: 0.0553716707396
+query similarity : Q1:  plane crach victime bury Q2: how many months decade  SIMILARITY: 0.0661485778056
+query similarity : Q1:  plane crach victime bury Q2: 4th july great britain  SIMILARITY: 0.142240876763
+query similarity : Q1:  plane crach victime bury Q2: Paine  SIMILARITY: 0.118195858417
+query similarity : Q1:  plane crach victime bury Q2: california marry "widows" sister  SIMILARITY: 0.215070643642
+query similarity : Q1:  plane crach victime bury Q2: "theres" no such thing   SIMILARITY: 0.0114395533998
+query similarity : Q1:  plane crach victime bury Q2: high transaction costs  SIMILARITY: 0.0182505168603
+query similarity : Q1:  plane crach victime bury Q2: High transaction costs will tend to  SIMILARITY: 0.0164421899598
+query similarity : Q1:  plane crach victime bury Q2: decade  SIMILARITY: 0.0501731421378
+query similarity : Q1:  plane crach victime bury Q2: how many months decade  SIMILARITY: 0.0661485778056
+query similarity : Q1:  plane crach victime bury Q2: group of pandas  SIMILARITY: 0.887316276538
+query similarity : Q1:  plane crach victime bury Q2: paine king legitimate power children  SIMILARITY: 3.17357512953
+query similarity : Q1:  plane crach victime bury Q2: group of panda  SIMILARITY: 0.0544017518048
+query similarity : Q1:  plane crach victime bury Q2: widow  SIMILARITY: 0.0300250732942
+query similarity : Q1:  plane crach victime bury Q2: decade in years  SIMILARITY: 0.229810909971
+query similarity : Q1:  plane crach victime bury Q2: high transaction costs  SIMILARITY: 0.0182505168603
+query similarity : Q1:  plane crach victime bury Q2: pandas  SIMILARITY: 0.0791829756602
+query similarity : Q1:  plane crach victime bury Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.0187053277234
+query similarity : Q1:  plane crach victime bury Q2: u.s coin nickel  SIMILARITY: 0.023503077784
+query similarity : Q1:  plane crach victime bury Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.0186832740214
+query similarity : Q1:  plane crach victime bury Q2: nickle  SIMILARITY: 0.337363052512
+query similarity : Q1:  plane crach victime bury Q2: 50 cent nickel  SIMILARITY: 0.0240514589354
+query similarity : Q1:  plane crach victime bury Q2: "4th of july" "Great Britain"  SIMILARITY: 0.0830188679245
+query similarity : Q1:  higher transaction costs Q2: plane crash us canada border bury  SIMILARITY: 0.00569440050617
+query similarity : Q1:  higher transaction costs Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.0160226201697
+query similarity : Q1:  higher transaction costs Q2: great britain 4th of july  SIMILARITY: 0.10910652921
+query similarity : Q1:  higher transaction costs Q2: great britain july4th  SIMILARITY: 0.0224330357143
+query similarity : Q1:  higher transaction costs Q2: nickel  SIMILARITY: 0.047066994337
+query similarity : Q1:  higher transaction costs Q2: decade  SIMILARITY: 0.0497425604328
+query similarity : Q1:  higher transaction costs Q2: plane crach victime bury  SIMILARITY: 0.174808802872
+query similarity : Q1:  higher transaction costs Q2: marry "widows" sister california  SIMILARITY: 0.0178899082569
+query similarity : Q1:  higher transaction costs Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.0160226201697
+query similarity : Q1:  higher transaction costs Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.111403508772
+query similarity : Q1:  higher transaction costs Q2: high transaction  SIMILARITY: 0.0574630594618
+query similarity : Q1:  higher transaction costs Q2: american coin material  SIMILARITY: 0.0485893416928
+query similarity : Q1:  higher transaction costs Q2: how many months decade  SIMILARITY: 0.0335261635551
+query similarity : Q1:  higher transaction costs Q2: 4th july great britain  SIMILARITY: 0.240192704749
+query similarity : Q1:  higher transaction costs Q2: Paine  SIMILARITY: 0.209925690021
+query similarity : Q1:  higher transaction costs Q2: california marry "widows" sister  SIMILARITY: 0.0185128983308
+query similarity : Q1:  higher transaction costs Q2: "theres" no such thing   SIMILARITY: 0.0287914691943
+query similarity : Q1:  higher transaction costs Q2: high transaction costs  SIMILARITY: 0.785785785786
+query similarity : Q1:  higher transaction costs Q2: High transaction costs will tend to  SIMILARITY: 0.644387317909
+query similarity : Q1:  higher transaction costs Q2: decade  SIMILARITY: 0.0497425604328
+query similarity : Q1:  higher transaction costs Q2: how many months decade  SIMILARITY: 0.0335261635551
+query similarity : Q1:  higher transaction costs Q2: group of pandas  SIMILARITY: 0.582798459564
+query similarity : Q1:  higher transaction costs Q2: paine king legitimate power children  SIMILARITY: 0.395539033457
+query similarity : Q1:  higher transaction costs Q2: group of panda  SIMILARITY: 0.124218305856
+query similarity : Q1:  higher transaction costs Q2: widow  SIMILARITY: 0.0670521099264
+query similarity : Q1:  higher transaction costs Q2: decade in years  SIMILARITY: 0.0484335456846
+query similarity : Q1:  higher transaction costs Q2: high transaction costs  SIMILARITY: 0.785785785786
+query similarity : Q1:  higher transaction costs Q2: pandas  SIMILARITY: 0.486160397445
+query similarity : Q1:  higher transaction costs Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.0378894080997
+query similarity : Q1:  higher transaction costs Q2: u.s coin nickel  SIMILARITY: 0.077519379845
+query similarity : Q1:  higher transaction costs Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.00127172530733
+query similarity : Q1:  higher transaction costs Q2: nickle  SIMILARITY: 1.02790697674
+query similarity : Q1:  higher transaction costs Q2: 50 cent nickel  SIMILARITY: 0.0227817745803
+query similarity : Q1:  higher transaction costs Q2: "4th of july" "Great Britain"  SIMILARITY: 0.119543421256
+query similarity : Q1:  marry "widows" sister california Q2: plane crash us canada border bury  SIMILARITY: 0.0418326693227
+query similarity : Q1:  marry "widows" sister california Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.00549450549451
+query similarity : Q1:  marry "widows" sister california Q2: great britain 4th of july  SIMILARITY: 0.061282932417
+query similarity : Q1:  marry "widows" sister california Q2: great britain july4th  SIMILARITY: 0.134394904459
+query similarity : Q1:  marry "widows" sister california Q2: nickel  SIMILARITY: 0.00623070136745
+query similarity : Q1:  marry "widows" sister california Q2: decade  SIMILARITY: 0.0176396848138
+query similarity : Q1:  marry "widows" sister california Q2: plane crach victime bury  SIMILARITY: 0.190800681431
+query similarity : Q1:  marry "widows" sister california Q2: higher transaction costs  SIMILARITY: 0.0174311926606
+query similarity : Q1:  marry "widows" sister california Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.00549450549451
+query similarity : Q1:  marry "widows" sister california Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.0523148148148
+query similarity : Q1:  marry "widows" sister california Q2: high transaction  SIMILARITY: 0.0103513631725
+query similarity : Q1:  marry "widows" sister california Q2: american coin material  SIMILARITY: 0.0921133703019
+query similarity : Q1:  marry "widows" sister california Q2: how many months decade  SIMILARITY: 0.0140313005936
+query similarity : Q1:  marry "widows" sister california Q2: 4th july great britain  SIMILARITY: 0.198622273249
+query similarity : Q1:  marry "widows" sister california Q2: Paine  SIMILARITY: 0.210922787194
+query similarity : Q1:  marry "widows" sister california Q2: california marry "widows" sister  SIMILARITY: 0.55974025974
+query similarity : Q1:  marry "widows" sister california Q2: "theres" no such thing   SIMILARITY: 0.00605786618445
+query similarity : Q1:  marry "widows" sister california Q2: high transaction costs  SIMILARITY: 0.00812146892655
+query similarity : Q1:  marry "widows" sister california Q2: High transaction costs will tend to  SIMILARITY: 0.00735042735043
+query similarity : Q1:  marry "widows" sister california Q2: decade  SIMILARITY: 0.0176396848138
+query similarity : Q1:  marry "widows" sister california Q2: how many months decade  SIMILARITY: 0.0140313005936
+query similarity : Q1:  marry "widows" sister california Q2: group of pandas  SIMILARITY: 0.320812182741
+query similarity : Q1:  marry "widows" sister california Q2: paine king legitimate power children  SIMILARITY: 3.44751381215
+query similarity : Q1:  marry "widows" sister california Q2: group of panda  SIMILARITY: 0.020470027248
+query similarity : Q1:  marry "widows" sister california Q2: widow  SIMILARITY: 0.00264604271357
+query similarity : Q1:  marry "widows" sister california Q2: decade in years  SIMILARITY: 0.0321454154728
+query similarity : Q1:  marry "widows" sister california Q2: high transaction costs  SIMILARITY: 0.00812146892655
+query similarity : Q1:  marry "widows" sister california Q2: pandas  SIMILARITY: 0.0401610017889
+query similarity : Q1:  marry "widows" sister california Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.0750251762336
+query similarity : Q1:  marry "widows" sister california Q2: u.s coin nickel  SIMILARITY: 0.255729166667
+query similarity : Q1:  marry "widows" sister california Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.0111376292761
+query similarity : Q1:  marry "widows" sister california Q2: nickle  SIMILARITY: 0.41726618705
+query similarity : Q1:  marry "widows" sister california Q2: 50 cent nickel  SIMILARITY: 0.0622467771639
+query similarity : Q1:  marry "widows" sister california Q2: "4th of july" "Great Britain"  SIMILARITY: 0.503770739065
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: plane crash us canada border bury  SIMILARITY: 0.00914634146341
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.599462365591
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: great britain 4th of july  SIMILARITY: 0.00584287863011
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: great britain july4th  SIMILARITY: 0.00303438975051
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: nickel  SIMILARITY: 2.20767608976e-05
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: decade  SIMILARITY: 0.00128592295216
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: plane crach victime bury  SIMILARITY: 0.0387409200969
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: higher transaction costs  SIMILARITY: 0.0160226201697
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: marry "widows" sister california  SIMILARITY: 0.00549450549451
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.00906344410876
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: high transaction  SIMILARITY: 0.00227218019884
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: american coin material  SIMILARITY: 0.00876540915567
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: how many months decade  SIMILARITY: 0.00174178391078
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: 4th july great britain  SIMILARITY: 0.00656044985942
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: Paine  SIMILARITY: 0.0145174525027
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: california marry "widows" sister  SIMILARITY: 0.00503355704698
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: "theres" no such thing   SIMILARITY: 0.0204850266397
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: high transaction costs  SIMILARITY: 0.01287001287
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: High transaction costs will tend to  SIMILARITY: 0.00140944326991
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: decade  SIMILARITY: 0.00128592295216
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: how many months decade  SIMILARITY: 0.00174178391078
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: group of pandas  SIMILARITY: 0.00612472160356
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: paine king legitimate power children  SIMILARITY: 0.0259917920657
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: group of panda  SIMILARITY: 0.00126773110395
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: widow  SIMILARITY: 0.00214646266098
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: decade in years  SIMILARITY: 0.00265697669209
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: high transaction costs  SIMILARITY: 0.01287001287
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: pandas  SIMILARITY: 0.0248805553051
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.00208269836432
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: u.s coin nickel  SIMILARITY: 0.0469644902635
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.0
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: nickle  SIMILARITY: 0.136991557943
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: 50 cent nickel  SIMILARITY: 0.000374321542205
+query similarity : Q1:  "Theres" no such thing as a free lunch Q2: "4th of july" "Great Britain"  SIMILARITY: 0.0
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: plane crash us canada border bury  SIMILARITY: 0.0226570545829
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.0140986908359
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: great britain 4th of july  SIMILARITY: 0.0180423280423
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: great britain july4th  SIMILARITY: 0.028384279476
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: nickel  SIMILARITY: 0.0228665207877
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: decade  SIMILARITY: 0.00640569395018
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: plane crach victime bury  SIMILARITY: 0.0414405525407
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: higher transaction costs  SIMILARITY: 0.174185463659
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: marry "widows" sister california  SIMILARITY: 0.0578703703704
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.0140986908359
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: high transaction  SIMILARITY: 0.0130529369108
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: american coin material  SIMILARITY: 0.0442477876106
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: how many months decade  SIMILARITY: 0.00616621983914
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: 4th july great britain  SIMILARITY: 0.100492610837
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: Paine  SIMILARITY: 0.0693693693694
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: california marry "widows" sister  SIMILARITY: 0.052036199095
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: "theres" no such thing   SIMILARITY: 0.0048
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: high transaction costs  SIMILARITY: 0.0839743589744
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: High transaction costs will tend to  SIMILARITY: 0.0200274348422
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: decade  SIMILARITY: 0.00640569395018
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: how many months decade  SIMILARITY: 0.00616621983914
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: group of pandas  SIMILARITY: 2.10557184751
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: paine king legitimate power children  SIMILARITY: 0.763326226013
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: group of panda  SIMILARITY: 0.232792207792
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: widow  SIMILARITY: 0.0204192546584
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: decade in years  SIMILARITY: 0.0154359430605
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: high transaction costs  SIMILARITY: 0.0839743589744
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: pandas  SIMILARITY: 0.287394957983
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.0118779342723
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: u.s coin nickel  SIMILARITY: 0.120833333333
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.00593251761216
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: nickle  SIMILARITY: 0.990521327014
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: 50 cent nickel  SIMILARITY: 0.0113821138211
+query similarity : Q1:  a plane crashes where do they bury the survivors Q2: "4th of july" "Great Britain"  SIMILARITY: 0.0237755587256
+query similarity : Q1:  high transaction Q2: plane crash us canada border bury  SIMILARITY: 0.000310058290959
+query similarity : Q1:  high transaction Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.00142603925802
+query similarity : Q1:  high transaction Q2: great britain 4th of july  SIMILARITY: 0.0632085194091
+query similarity : Q1:  high transaction Q2: great britain july4th  SIMILARITY: 0.0159693619481
+query similarity : Q1:  high transaction Q2: nickel  SIMILARITY: 0.122857142857
+query similarity : Q1:  high transaction Q2: decade  SIMILARITY: 0.116498993964
+query similarity : Q1:  high transaction Q2: plane crach victime bury  SIMILARITY: 0.00311056168794
+query similarity : Q1:  high transaction Q2: higher transaction costs  SIMILARITY: 0.0563923192234
+query similarity : Q1:  high transaction Q2: marry "widows" sister california  SIMILARITY: 0.0103513631725
+query similarity : Q1:  high transaction Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.00142603925802
+query similarity : Q1:  high transaction Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.0137781000725
+query similarity : Q1:  high transaction Q2: american coin material  SIMILARITY: 0.250898399216
+query similarity : Q1:  high transaction Q2: how many months decade  SIMILARITY: 0.158064516129
+query similarity : Q1:  high transaction Q2: 4th july great britain  SIMILARITY: 0.189481140429
+query similarity : Q1:  high transaction Q2: Paine  SIMILARITY: 0.0237643207856
+query similarity : Q1:  high transaction Q2: california marry "widows" sister  SIMILARITY: 0.00976640792974
+query similarity : Q1:  high transaction Q2: "theres" no such thing   SIMILARITY: 0.00972953986653
+query similarity : Q1:  high transaction Q2: high transaction costs  SIMILARITY: 0.165392633773
+query similarity : Q1:  high transaction Q2: High transaction costs will tend to  SIMILARITY: 0.0294822712798
+query similarity : Q1:  high transaction Q2: decade  SIMILARITY: 0.116498993964
+query similarity : Q1:  high transaction Q2: how many months decade  SIMILARITY: 0.158064516129
+query similarity : Q1:  high transaction Q2: group of pandas  SIMILARITY: 0.00160371539494
+query similarity : Q1:  high transaction Q2: paine king legitimate power children  SIMILARITY: 0.00134768435047
+query similarity : Q1:  high transaction Q2: group of panda  SIMILARITY: 0.136303630363
+query similarity : Q1:  high transaction Q2: widow  SIMILARITY: 0.100997506234
+query similarity : Q1:  high transaction Q2: decade in years  SIMILARITY: 0.251509054326
+query similarity : Q1:  high transaction Q2: high transaction costs  SIMILARITY: 0.165392633773
+query similarity : Q1:  high transaction Q2: pandas  SIMILARITY: 0.00851351351351
+query similarity : Q1:  high transaction Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.0882453151618
+query similarity : Q1:  high transaction Q2: u.s coin nickel  SIMILARITY: 0.0598780664828
+query similarity : Q1:  high transaction Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.00134595866816
+query similarity : Q1:  high transaction Q2: nickle  SIMILARITY: 0.202228492873
+query similarity : Q1:  high transaction Q2: 50 cent nickel  SIMILARITY: 0.00710017574692
+query similarity : Q1:  high transaction Q2: "4th of july" "Great Britain"  SIMILARITY: 0.00699955888197
+query similarity : Q1:  american coin material Q2: plane crash us canada border bury  SIMILARITY: 0.00536567210471
+query similarity : Q1:  american coin material Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.00876540915567
+query similarity : Q1:  american coin material Q2: great britain 4th of july  SIMILARITY: 0.045325203252
+query similarity : Q1:  american coin material Q2: great britain july4th  SIMILARITY: 0.0762614678899
+query similarity : Q1:  american coin material Q2: nickel  SIMILARITY: 0.00502111684655
+query similarity : Q1:  american coin material Q2: decade  SIMILARITY: 0.146217169737
+query similarity : Q1:  american coin material Q2: plane crach victime bury  SIMILARITY: 0.0587743991091
+query similarity : Q1:  american coin material Q2: higher transaction costs  SIMILARITY: 0.0509404388715
+query similarity : Q1:  american coin material Q2: marry "widows" sister california  SIMILARITY: 0.0921133703019
+query similarity : Q1:  american coin material Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.00876540915567
+query similarity : Q1:  american coin material Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.0469026548673
+query similarity : Q1:  american coin material Q2: high transaction  SIMILARITY: 0.250898399216
+query similarity : Q1:  american coin material Q2: how many months decade  SIMILARITY: 0.303817394726
+query similarity : Q1:  american coin material Q2: 4th july great britain  SIMILARITY: 1.84672435105
+query similarity : Q1:  american coin material Q2: Paine  SIMILARITY: 0.141352201258
+query similarity : Q1:  american coin material Q2: california marry "widows" sister  SIMILARITY: 0.0919717010151
+query similarity : Q1:  american coin material Q2: "theres" no such thing   SIMILARITY: 0.0172196261682
+query similarity : Q1:  american coin material Q2: high transaction costs  SIMILARITY: 0.0501089324619
+query similarity : Q1:  american coin material Q2: High transaction costs will tend to  SIMILARITY: 0.0582601755786
+query similarity : Q1:  american coin material Q2: decade  SIMILARITY: 0.146217169737
+query similarity : Q1:  american coin material Q2: how many months decade  SIMILARITY: 0.303817394726
+query similarity : Q1:  american coin material Q2: group of pandas  SIMILARITY: 1.54850192821
+query similarity : Q1:  american coin material Q2: paine king legitimate power children  SIMILARITY: 2.64359013631
+query similarity : Q1:  american coin material Q2: group of panda  SIMILARITY: 1.1767594108
+query similarity : Q1:  american coin material Q2: widow  SIMILARITY: 0.00262727844123
+query similarity : Q1:  american coin material Q2: decade in years  SIMILARITY: 0.103096824775
+query similarity : Q1:  american coin material Q2: high transaction costs  SIMILARITY: 0.0501089324619
+query similarity : Q1:  american coin material Q2: pandas  SIMILARITY: 0.00800369685767
+query similarity : Q1:  american coin material Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.866279069767
+query similarity : Q1:  american coin material Q2: u.s coin nickel  SIMILARITY: 0.0297088532383
+query similarity : Q1:  american coin material Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.00196987604934
+query similarity : Q1:  american coin material Q2: nickle  SIMILARITY: 0.0275782155272
+query similarity : Q1:  american coin material Q2: 50 cent nickel  SIMILARITY: 0.0109154929577
+query similarity : Q1:  american coin material Q2: "4th of july" "Great Britain"  SIMILARITY: 0.0410455821992
+query similarity : Q1:  how many months decade Q2: plane crash us canada border bury  SIMILARITY: 0.00204823941443
+query similarity : Q1:  how many months decade Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.00306049886131
+query similarity : Q1:  how many months decade Q2: great britain 4th of july  SIMILARITY: 0.12965286491
+query similarity : Q1:  how many months decade Q2: great britain july4th  SIMILARITY: 0.0313640003559
+query similarity : Q1:  how many months decade Q2: nickel  SIMILARITY: 0.0692307692308
+query similarity : Q1:  how many months decade Q2: decade  SIMILARITY: 0.498876404494
+query similarity : Q1:  how many months decade Q2: plane crach victime bury  SIMILARITY: 0.077848326261
+query similarity : Q1:  how many months decade Q2: higher transaction costs  SIMILARITY: 0.0340958892103
+query similarity : Q1:  how many months decade Q2: marry "widows" sister california  SIMILARITY: 0.0174491815075
+query similarity : Q1:  how many months decade Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.00175078537802
+query similarity : Q1:  how many months decade Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.0114834673816
+query similarity : Q1:  how many months decade Q2: high transaction  SIMILARITY: 0.192338709677
+query similarity : Q1:  how many months decade Q2: american coin material  SIMILARITY: 0.304210940575
+query similarity : Q1:  how many months decade Q2: 4th july great britain  SIMILARITY: 0.375081397873
+query similarity : Q1:  how many months decade Q2: Paine  SIMILARITY: 0.323471400394
+query similarity : Q1:  how many months decade Q2: california marry "widows" sister  SIMILARITY: 0.0160514365361
+query similarity : Q1:  how many months decade Q2: "theres" no such thing   SIMILARITY: 0.0142243231629
+query similarity : Q1:  how many months decade Q2: high transaction costs  SIMILARITY: 0.0436810856658
+query similarity : Q1:  how many months decade Q2: High transaction costs will tend to  SIMILARITY: 0.0221108620159
+query similarity : Q1:  how many months decade Q2: decade  SIMILARITY: 0.498876404494
+query similarity : Q1:  how many months decade Q2: how many months decade  SIMILARITY: 0.997747747748
+query similarity : Q1:  how many months decade Q2: group of pandas  SIMILARITY: 0.317517105675
+query similarity : Q1:  how many months decade Q2: paine king legitimate power children  SIMILARITY: 0.0066054056483
+query similarity : Q1:  how many months decade Q2: group of panda  SIMILARITY: 0.282470119522
+query similarity : Q1:  how many months decade Q2: widow  SIMILARITY: 0.150143266476
+query similarity : Q1:  how many months decade Q2: decade in years  SIMILARITY: 0.613483146067
+query similarity : Q1:  how many months decade Q2: high transaction costs  SIMILARITY: 0.0436810856658
+query similarity : Q1:  how many months decade Q2: pandas  SIMILARITY: 0.249180327869
+query similarity : Q1:  how many months decade Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.269979296066
+query similarity : Q1:  how many months decade Q2: u.s coin nickel  SIMILARITY: 0.00182501341922
+query similarity : Q1:  how many months decade Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.000417233071778
+query similarity : Q1:  how many months decade Q2: nickle  SIMILARITY: 0.124320470546
+query similarity : Q1:  how many months decade Q2: 50 cent nickel  SIMILARITY: 0.0171612903226
+query similarity : Q1:  how many months decade Q2: "4th of july" "Great Britain"  SIMILARITY: 0.0123255196736
+query similarity : Q1:  4th july great britain Q2: plane crash us canada border bury  SIMILARITY: 0.00812529439472
+query similarity : Q1:  4th july great britain Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.0167525773196
+query similarity : Q1:  4th july great britain Q2: great britain 4th of july  SIMILARITY: 6.99410609037
+query similarity : Q1:  4th july great britain Q2: great britain july4th  SIMILARITY: 2.86612758311
+query similarity : Q1:  4th july great britain Q2: nickel  SIMILARITY: 0.30789543174
+query similarity : Q1:  4th july great britain Q2: decade  SIMILARITY: 0.418845904474
+query similarity : Q1:  4th july great britain Q2: plane crach victime bury  SIMILARITY: 0.16322723563
+query similarity : Q1:  4th july great britain Q2: higher transaction costs  SIMILARITY: 0.240192704749
+query similarity : Q1:  4th july great britain Q2: marry "widows" sister california  SIMILARITY: 0.276693455798
+query similarity : Q1:  4th july great britain Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.0167525773196
+query similarity : Q1:  4th july great britain Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.118226600985
+query similarity : Q1:  4th july great britain Q2: high transaction  SIMILARITY: 0.189481140429
+query similarity : Q1:  4th july great britain Q2: american coin material  SIMILARITY: 1.84672435105
+query similarity : Q1:  4th july great britain Q2: how many months decade  SIMILARITY: 0.385500325591
+query similarity : Q1:  4th july great britain Q2: Paine  SIMILARITY: 0.341279799247
+query similarity : Q1:  4th july great britain Q2: california marry "widows" sister  SIMILARITY: 0.275114155251
+query similarity : Q1:  4th july great britain Q2: "theres" no such thing   SIMILARITY: 0.0734908136483
+query similarity : Q1:  4th july great britain Q2: high transaction costs  SIMILARITY: 0.0595936794582
+query similarity : Q1:  4th july great britain Q2: High transaction costs will tend to  SIMILARITY: 1.66907514451
+query similarity : Q1:  4th july great britain Q2: decade  SIMILARITY: 0.418845904474
+query similarity : Q1:  4th july great britain Q2: how many months decade  SIMILARITY: 0.385500325591
+query similarity : Q1:  4th july great britain Q2: group of pandas  SIMILARITY: 3.61445783133
+query similarity : Q1:  4th july great britain Q2: paine king legitimate power children  SIMILARITY: 8.30803822372
+query similarity : Q1:  4th july great britain Q2: group of panda  SIMILARITY: 0.639892904953
+query similarity : Q1:  4th july great britain Q2: widow  SIMILARITY: 0.245289988918
+query similarity : Q1:  4th july great britain Q2: decade in years  SIMILARITY: 0.394640155608
+query similarity : Q1:  4th july great britain Q2: high transaction costs  SIMILARITY: 0.0595936794582
+query similarity : Q1:  4th july great britain Q2: pandas  SIMILARITY: 2.04612850082
+query similarity : Q1:  4th july great britain Q2: i have 2 u.s. coins that total 55  SIMILARITY: 1.07001795332
+query similarity : Q1:  4th july great britain Q2: u.s coin nickel  SIMILARITY: 2.09889001009
+query similarity : Q1:  4th july great britain Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.00497458635233
+query similarity : Q1:  4th july great britain Q2: nickle  SIMILARITY: 5.41318477252
+query similarity : Q1:  4th july great britain Q2: 50 cent nickel  SIMILARITY: 0.615384615385
+query similarity : Q1:  4th july great britain Q2: "4th of july" "Great Britain"  SIMILARITY: 0.00751184560268
+query similarity : Q1:  Paine Q2: plane crash us canada border bury  SIMILARITY: 0.00372922065609
+query similarity : Q1:  Paine Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.0145174525027
+query similarity : Q1:  Paine Q2: great britain 4th of july  SIMILARITY: 0.032304526749
+query similarity : Q1:  Paine Q2: great britain july4th  SIMILARITY: 0.312135355893
+query similarity : Q1:  Paine Q2: nickel  SIMILARITY: 0.0380705882353
+query similarity : Q1:  Paine Q2: decade  SIMILARITY: 0.00168172888016
+query similarity : Q1:  Paine Q2: plane crach victime bury  SIMILARITY: 0.0447568317206
+query similarity : Q1:  Paine Q2: higher transaction costs  SIMILARITY: 0.232218683652
+query similarity : Q1:  Paine Q2: marry "widows" sister california  SIMILARITY: 0.0354676710609
+query similarity : Q1:  Paine Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.0145174525027
+query similarity : Q1:  Paine Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.0780780780781
+query similarity : Q1:  Paine Q2: high transaction  SIMILARITY: 0.0239279869067
+query similarity : Q1:  Paine Q2: american coin material  SIMILARITY: 0.207547169811
+query similarity : Q1:  Paine Q2: how many months decade  SIMILARITY: 0.260749506903
+query similarity : Q1:  Paine Q2: 4th july great britain  SIMILARITY: 0.341279799247
+query similarity : Q1:  Paine Q2: california marry "widows" sister  SIMILARITY: 0.19366969602
+query similarity : Q1:  Paine Q2: "theres" no such thing   SIMILARITY: 0.136966824645
+query similarity : Q1:  Paine Q2: high transaction costs  SIMILARITY: 0.434878587196
+query similarity : Q1:  Paine Q2: High transaction costs will tend to  SIMILARITY: 0.0789402541227
+query similarity : Q1:  Paine Q2: decade  SIMILARITY: 0.00168172888016
+query similarity : Q1:  Paine Q2: how many months decade  SIMILARITY: 0.260749506903
+query similarity : Q1:  Paine Q2: group of pandas  SIMILARITY: 1.09634551495
+query similarity : Q1:  Paine Q2: paine king legitimate power children  SIMILARITY: 0.0836323919488
+query similarity : Q1:  Paine Q2: group of panda  SIMILARITY: 0.596694214876
+query similarity : Q1:  Paine Q2: widow  SIMILARITY: 0.00228391167192
+query similarity : Q1:  Paine Q2: decade in years  SIMILARITY: 0.0801571709234
+query similarity : Q1:  Paine Q2: high transaction costs  SIMILARITY: 0.434878587196
+query similarity : Q1:  Paine Q2: pandas  SIMILARITY: 0.154392523364
+query similarity : Q1:  Paine Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.0109411764706
+query similarity : Q1:  Paine Q2: u.s coin nickel  SIMILARITY: 0.259528130672
+query similarity : Q1:  Paine Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.0277494829768
+query similarity : Q1:  Paine Q2: nickle  SIMILARITY: 0.238502358491
+query similarity : Q1:  Paine Q2: 50 cent nickel  SIMILARITY: 0.0871428571429
+query similarity : Q1:  Paine Q2: "4th of july" "Great Britain"  SIMILARITY: 0.0676036851869
+query similarity : Q1:  california marry "widows" sister Q2: plane crash us canada border bury  SIMILARITY: 0.0380434782609
+query similarity : Q1:  california marry "widows" sister Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.00503355704698
+query similarity : Q1:  california marry "widows" sister Q2: great britain 4th of july  SIMILARITY: 0.061107938321
+query similarity : Q1:  california marry "widows" sister Q2: great britain july4th  SIMILARITY: 0.13197492163
+query similarity : Q1:  california marry "widows" sister Q2: nickel  SIMILARITY: 0.00562262278816
+query similarity : Q1:  california marry "widows" sister Q2: decade  SIMILARITY: 0.0161586321114
+query similarity : Q1:  california marry "widows" sister Q2: plane crach victime bury  SIMILARITY: 0.215070643642
+query similarity : Q1:  california marry "widows" sister Q2: higher transaction costs  SIMILARITY: 0.0174506828528
+query similarity : Q1:  california marry "widows" sister Q2: marry "widows" sister california  SIMILARITY: 0.564935064935
+query similarity : Q1:  california marry "widows" sister Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.00503355704698
+query similarity : Q1:  california marry "widows" sister Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.0561085972851
+query similarity : Q1:  california marry "widows" sister Q2: high transaction  SIMILARITY: 0.00965708246784
+query similarity : Q1:  california marry "widows" sister Q2: american coin material  SIMILARITY: 0.0913565056906
+query similarity : Q1:  california marry "widows" sister Q2: how many months decade  SIMILARITY: 0.0160514365361
+query similarity : Q1:  california marry "widows" sister Q2: 4th july great britain  SIMILARITY: 0.275114155251
+query similarity : Q1:  california marry "widows" sister Q2: Paine  SIMILARITY: 0.19366969602
+query similarity : Q1:  california marry "widows" sister Q2: "theres" no such thing   SIMILARITY: 0.00612061206121
+query similarity : Q1:  california marry "widows" sister Q2: high transaction costs  SIMILARITY: 0.00767065446868
+query similarity : Q1:  california marry "widows" sister Q2: High transaction costs will tend to  SIMILARITY: 0.00745762711864
+query similarity : Q1:  california marry "widows" sister Q2: decade  SIMILARITY: 0.0161586321114
+query similarity : Q1:  california marry "widows" sister Q2: how many months decade  SIMILARITY: 0.0160514365361
+query similarity : Q1:  california marry "widows" sister Q2: group of pandas  SIMILARITY: 0.361386138614
+query similarity : Q1:  california marry "widows" sister Q2: paine king legitimate power children  SIMILARITY: 3.25654450262
+query similarity : Q1:  california marry "widows" sister Q2: group of panda  SIMILARITY: 0.0236654199252
+query similarity : Q1:  california marry "widows" sister Q2: widow  SIMILARITY: 0.0029118593517
+query similarity : Q1:  california marry "widows" sister Q2: decade in years  SIMILARITY: 0.0294973367352
+query similarity : Q1:  california marry "widows" sister Q2: high transaction costs  SIMILARITY: 0.00767065446868
+query similarity : Q1:  california marry "widows" sister Q2: pandas  SIMILARITY: 0.038197233378
+query similarity : Q1:  california marry "widows" sister Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.0743345052737
+query similarity : Q1:  california marry "widows" sister Q2: u.s coin nickel  SIMILARITY: 0.267005076142
+query similarity : Q1:  california marry "widows" sister Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.0107115531752
+query similarity : Q1:  california marry "widows" sister Q2: nickle  SIMILARITY: 0.360424028269
+query similarity : Q1:  california marry "widows" sister Q2: 50 cent nickel  SIMILARITY: 0.0570119156737
+query similarity : Q1:  california marry "widows" sister Q2: "4th of july" "Great Britain"  SIMILARITY: 0.429172510519
+query similarity : Q1:  "theres" no such thing  Q2: plane crash us canada border bury  SIMILARITY: 0.00175244419849
+query similarity : Q1:  "theres" no such thing  Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.0204850266397
+query similarity : Q1:  "theres" no such thing  Q2: great britain 4th of july  SIMILARITY: 0.0402877697842
+query similarity : Q1:  "theres" no such thing  Q2: great britain july4th  SIMILARITY: 0.0093471810089
+query similarity : Q1:  "theres" no such thing  Q2: nickel  SIMILARITY: 0.00198226395409
+query similarity : Q1:  "theres" no such thing  Q2: decade  SIMILARITY: 0.0160890029953
+query similarity : Q1:  "theres" no such thing  Q2: plane crach victime bury  SIMILARITY: 0.0116225862542
+query similarity : Q1:  "theres" no such thing  Q2: higher transaction costs  SIMILARITY: 0.0286137440758
+query similarity : Q1:  "theres" no such thing  Q2: marry "widows" sister california  SIMILARITY: 0.00614828209765
+query similarity : Q1:  "theres" no such thing  Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.0204850266397
+query similarity : Q1:  "theres" no such thing  Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.0076
+query similarity : Q1:  "theres" no such thing  Q2: high transaction  SIMILARITY: 0.00958904109589
+query similarity : Q1:  "theres" no such thing  Q2: american coin material  SIMILARITY: 0.0172663551402
+query similarity : Q1:  "theres" no such thing  Q2: how many months decade  SIMILARITY: 0.0142243231629
+query similarity : Q1:  "theres" no such thing  Q2: 4th july great britain  SIMILARITY: 0.0734908136483
+query similarity : Q1:  "theres" no such thing  Q2: Paine  SIMILARITY: 0.13672985782
+query similarity : Q1:  "theres" no such thing  Q2: california marry "widows" sister  SIMILARITY: 0.00630063006301
+query similarity : Q1:  "theres" no such thing  Q2: high transaction costs  SIMILARITY: 0.0412244897959
+query similarity : Q1:  "theres" no such thing  Q2: High transaction costs will tend to  SIMILARITY: 0.0327980234713
+query similarity : Q1:  "theres" no such thing  Q2: decade  SIMILARITY: 0.0160890029953
+query similarity : Q1:  "theres" no such thing  Q2: how many months decade  SIMILARITY: 0.0142243231629
+query similarity : Q1:  "theres" no such thing  Q2: group of pandas  SIMILARITY: 0.0373679935012
+query similarity : Q1:  "theres" no such thing  Q2: paine king legitimate power children  SIMILARITY: 0.0120053357048
+query similarity : Q1:  "theres" no such thing  Q2: group of panda  SIMILARITY: 0.0103022670025
+query similarity : Q1:  "theres" no such thing  Q2: widow  SIMILARITY: 0.0344226579521
+query similarity : Q1:  "theres" no such thing  Q2: decade in years  SIMILARITY: 0.0155327342747
+query similarity : Q1:  "theres" no such thing  Q2: high transaction costs  SIMILARITY: 0.0412244897959
+query similarity : Q1:  "theres" no such thing  Q2: pandas  SIMILARITY: 0.0222324159021
+query similarity : Q1:  "theres" no such thing  Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.0166556291391
+query similarity : Q1:  "theres" no such thing  Q2: u.s coin nickel  SIMILARITY: 0.00807504078303
+query similarity : Q1:  "theres" no such thing  Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.00103475036647
+query similarity : Q1:  "theres" no such thing  Q2: nickle  SIMILARITY: 0.419207317073
+query similarity : Q1:  "theres" no such thing  Q2: 50 cent nickel  SIMILARITY: 0.00735849056604
+query similarity : Q1:  "theres" no such thing  Q2: "4th of july" "Great Britain"  SIMILARITY: 0.000636190129965
+query similarity : Q1:  high transaction costs Q2: plane crash us canada border bury  SIMILARITY: 0.00251040022952
+query similarity : Q1:  high transaction costs Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.00693550693551
+query similarity : Q1:  high transaction costs Q2: great britain 4th of july  SIMILARITY: 0.0126537216828
+query similarity : Q1:  high transaction costs Q2: great britain july4th  SIMILARITY: 0.140530759952
+query similarity : Q1:  high transaction costs Q2: nickel  SIMILARITY: 0.00544147843943
+query similarity : Q1:  high transaction costs Q2: decade  SIMILARITY: 0.0106418918919
+query similarity : Q1:  high transaction costs Q2: plane crach victime bury  SIMILARITY: 0.07485563556
+query similarity : Q1:  high transaction costs Q2: higher transaction costs  SIMILARITY: 0.755755755756
+query similarity : Q1:  high transaction costs Q2: marry "widows" sister california  SIMILARITY: 0.0079802259887
+query similarity : Q1:  high transaction costs Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.00693550693551
+query similarity : Q1:  high transaction costs Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.0419871794872
+query similarity : Q1:  high transaction costs Q2: high transaction  SIMILARITY: 0.158790826963
+query similarity : Q1:  high transaction costs Q2: american coin material  SIMILARITY: 0.0490196078431
+query similarity : Q1:  high transaction costs Q2: how many months decade  SIMILARITY: 0.0373197625106
+query similarity : Q1:  high transaction costs Q2: 4th july great britain  SIMILARITY: 0.0591422121896
+query similarity : Q1:  high transaction costs Q2: Paine  SIMILARITY: 0.39293598234
+query similarity : Q1:  high transaction costs Q2: california marry "widows" sister  SIMILARITY: 0.00802251935257
+query similarity : Q1:  high transaction costs Q2: "theres" no such thing   SIMILARITY: 0.0395918367347
+query similarity : Q1:  high transaction costs Q2: High transaction costs will tend to  SIMILARITY: 0.504406428201
+query similarity : Q1:  high transaction costs Q2: decade  SIMILARITY: 0.0106418918919
+query similarity : Q1:  high transaction costs Q2: how many months decade  SIMILARITY: 0.0373197625106
+query similarity : Q1:  high transaction costs Q2: group of pandas  SIMILARITY: 0.0288124594419
+query similarity : Q1:  high transaction costs Q2: paine king legitimate power children  SIMILARITY: 0.269083304287
+query similarity : Q1:  high transaction costs Q2: group of panda  SIMILARITY: 0.294392523364
+query similarity : Q1:  high transaction costs Q2: widow  SIMILARITY: 0.00517045454545
+query similarity : Q1:  high transaction costs Q2: decade in years  SIMILARITY: 0.0599662162162
+query similarity : Q1:  high transaction costs Q2: high transaction costs  SIMILARITY: 1.48913043478
+query similarity : Q1:  high transaction costs Q2: pandas  SIMILARITY: 0.801675977654
+query similarity : Q1:  high transaction costs Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.0196396396396
+query similarity : Q1:  high transaction costs Q2: u.s coin nickel  SIMILARITY: 0.0487630208333
+query similarity : Q1:  high transaction costs Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.00381030142206
+query similarity : Q1:  high transaction costs Q2: nickle  SIMILARITY: 0.0653514180025
+query similarity : Q1:  high transaction costs Q2: 50 cent nickel  SIMILARITY: 0.00246913580247
+query similarity : Q1:  high transaction costs Q2: "4th of july" "Great Britain"  SIMILARITY: 0.0500602708644
+query similarity : Q1:  High transaction costs will tend to Q2: plane crash us canada border bury  SIMILARITY: 0.00479403409091
+query similarity : Q1:  High transaction costs will tend to Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.00140944326991
+query similarity : Q1:  High transaction costs will tend to Q2: great britain 4th of july  SIMILARITY: 0.018415227977
+query similarity : Q1:  High transaction costs will tend to Q2: great britain july4th  SIMILARITY: 0.0116082224909
+query similarity : Q1:  High transaction costs will tend to Q2: nickel  SIMILARITY: 0.0179634296745
+query similarity : Q1:  High transaction costs will tend to Q2: decade  SIMILARITY: 0.0259529957547
+query similarity : Q1:  High transaction costs will tend to Q2: plane crach victime bury  SIMILARITY: 0.0159174392164
+query similarity : Q1:  High transaction costs will tend to Q2: higher transaction costs  SIMILARITY: 0.783204798629
+query similarity : Q1:  High transaction costs will tend to Q2: marry "widows" sister california  SIMILARITY: 0.00752136752137
+query similarity : Q1:  High transaction costs will tend to Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.00140944326991
+query similarity : Q1:  High transaction costs will tend to Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.0181069958848
+query similarity : Q1:  High transaction costs will tend to Q2: high transaction  SIMILARITY: 0.0355647787041
+query similarity : Q1:  High transaction costs will tend to Q2: american coin material  SIMILARITY: 0.0744878957169
+query similarity : Q1:  High transaction costs will tend to Q2: how many months decade  SIMILARITY: 0.0284408105851
+query similarity : Q1:  High transaction costs will tend to Q2: 4th july great britain  SIMILARITY: 0.217485549133
+query similarity : Q1:  High transaction costs will tend to Q2: Paine  SIMILARITY: 0.0886726142201
+query similarity : Q1:  High transaction costs will tend to Q2: california marry "widows" sister  SIMILARITY: 0.00745762711864
+query similarity : Q1:  High transaction costs will tend to Q2: "theres" no such thing   SIMILARITY: 0.0326744904262
+query similarity : Q1:  High transaction costs will tend to Q2: high transaction costs  SIMILARITY: 0.517884914463
+query similarity : Q1:  High transaction costs will tend to Q2: decade  SIMILARITY: 0.0259529957547
+query similarity : Q1:  High transaction costs will tend to Q2: how many months decade  SIMILARITY: 0.0284408105851
+query similarity : Q1:  High transaction costs will tend to Q2: group of pandas  SIMILARITY: 0.174647887324
+query similarity : Q1:  High transaction costs will tend to Q2: paine king legitimate power children  SIMILARITY: 0.14183927092
+query similarity : Q1:  High transaction costs will tend to Q2: group of panda  SIMILARITY: 0.0649463612641
+query similarity : Q1:  High transaction costs will tend to Q2: widow  SIMILARITY: 0.0245301532191
+query similarity : Q1:  High transaction costs will tend to Q2: decade in years  SIMILARITY: 0.0265219484441
+query similarity : Q1:  High transaction costs will tend to Q2: high transaction costs  SIMILARITY: 0.517884914463
+query similarity : Q1:  High transaction costs will tend to Q2: pandas  SIMILARITY: 0.0898508548563
+query similarity : Q1:  High transaction costs will tend to Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.118047218888
+query similarity : Q1:  High transaction costs will tend to Q2: u.s coin nickel  SIMILARITY: 0.0659574468085
+query similarity : Q1:  High transaction costs will tend to Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.00829810552685
+query similarity : Q1:  High transaction costs will tend to Q2: nickle  SIMILARITY: 0.423514538559
+query similarity : Q1:  High transaction costs will tend to Q2: 50 cent nickel  SIMILARITY: 0.00694183864916
+query similarity : Q1:  High transaction costs will tend to Q2: "4th of july" "Great Britain"  SIMILARITY: 0.012083549111
+query similarity : Q1:  decade Q2: plane crash us canada border bury  SIMILARITY: 0.00210628209839
+query similarity : Q1:  decade Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.00265249612431
+query similarity : Q1:  decade Q2: great britain 4th of july  SIMILARITY: 0.0136193252811
+query similarity : Q1:  decade Q2: great britain july4th  SIMILARITY: 0.00863672601648
+query similarity : Q1:  decade Q2: nickel  SIMILARITY: 0.025
+query similarity : Q1:  decade Q2: decade  SIMILARITY: 0.5
+query similarity : Q1:  decade Q2: plane crach victime bury  SIMILARITY: 0.0161718788498
+query similarity : Q1:  decade Q2: higher transaction costs  SIMILARITY: 0.0268348023388
+query similarity : Q1:  decade Q2: marry "widows" sister california  SIMILARITY: 0.0175053724928
+query similarity : Q1:  decade Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.00130384522327
+query similarity : Q1:  decade Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.0126779359431
+query similarity : Q1:  decade Q2: high transaction  SIMILARITY: 0.116498993964
+query similarity : Q1:  decade Q2: american coin material  SIMILARITY: 0.146217169737
+query similarity : Q1:  decade Q2: how many months decade  SIMILARITY: 0.498876404494
+query similarity : Q1:  decade Q2: 4th july great britain  SIMILARITY: 0.387291981846
+query similarity : Q1:  decade Q2: Paine  SIMILARITY: 0.00168172888016
+query similarity : Q1:  decade Q2: california marry "widows" sister  SIMILARITY: 0.0162033928651
+query similarity : Q1:  decade Q2: "theres" no such thing   SIMILARITY: 0.0161317928969
+query similarity : Q1:  decade Q2: high transaction costs  SIMILARITY: 0.0111064189189
+query similarity : Q1:  decade Q2: High transaction costs will tend to  SIMILARITY: 0.0159744408946
+query similarity : Q1:  decade Q2: how many months decade  SIMILARITY: 0.498876404494
+query similarity : Q1:  decade Q2: group of pandas  SIMILARITY: 0.0174079515605
+query similarity : Q1:  decade Q2: paine king legitimate power children  SIMILARITY: 0.00706792815764
+query similarity : Q1:  decade Q2: group of panda  SIMILARITY: 0.0972222222222
+query similarity : Q1:  decade Q2: widow  SIMILARITY: 0.0331428571429
+query similarity : Q1:  decade Q2: decade in years  SIMILARITY: 0.5
+query similarity : Q1:  decade Q2: high transaction costs  SIMILARITY: 0.0111064189189
+query similarity : Q1:  decade Q2: pandas  SIMILARITY: 0.00131428571429
+query similarity : Q1:  decade Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.301855670103
+query similarity : Q1:  decade Q2: u.s coin nickel  SIMILARITY: 0.0018391521197
+query similarity : Q1:  decade Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.00313090394244
+query similarity : Q1:  decade Q2: nickle  SIMILARITY: 0.0452488687783
+query similarity : Q1:  decade Q2: 50 cent nickel  SIMILARITY: 0.0187580299786
+query similarity : Q1:  decade Q2: "4th of july" "Great Britain"  SIMILARITY: 0.00452300237793
+query similarity : Q1:  how many months decade Q2: plane crash us canada border bury  SIMILARITY: 0.00204823941443
+query similarity : Q1:  how many months decade Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.00306049886131
+query similarity : Q1:  how many months decade Q2: great britain 4th of july  SIMILARITY: 0.12965286491
+query similarity : Q1:  how many months decade Q2: great britain july4th  SIMILARITY: 0.0313640003559
+query similarity : Q1:  how many months decade Q2: nickel  SIMILARITY: 0.0692307692308
+query similarity : Q1:  how many months decade Q2: decade  SIMILARITY: 0.498876404494
+query similarity : Q1:  how many months decade Q2: plane crach victime bury  SIMILARITY: 0.077848326261
+query similarity : Q1:  how many months decade Q2: higher transaction costs  SIMILARITY: 0.0340958892103
+query similarity : Q1:  how many months decade Q2: marry "widows" sister california  SIMILARITY: 0.0174491815075
+query similarity : Q1:  how many months decade Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.00175078537802
+query similarity : Q1:  how many months decade Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.0114834673816
+query similarity : Q1:  how many months decade Q2: high transaction  SIMILARITY: 0.192338709677
+query similarity : Q1:  how many months decade Q2: american coin material  SIMILARITY: 0.304210940575
+query similarity : Q1:  how many months decade Q2: how many months decade  SIMILARITY: 0.997747747748
+query similarity : Q1:  how many months decade Q2: 4th july great britain  SIMILARITY: 0.375081397873
+query similarity : Q1:  how many months decade Q2: Paine  SIMILARITY: 0.323471400394
+query similarity : Q1:  how many months decade Q2: california marry "widows" sister  SIMILARITY: 0.0160514365361
+query similarity : Q1:  how many months decade Q2: "theres" no such thing   SIMILARITY: 0.0142243231629
+query similarity : Q1:  how many months decade Q2: high transaction costs  SIMILARITY: 0.0436810856658
+query similarity : Q1:  how many months decade Q2: High transaction costs will tend to  SIMILARITY: 0.0221108620159
+query similarity : Q1:  how many months decade Q2: decade  SIMILARITY: 0.498876404494
+query similarity : Q1:  how many months decade Q2: group of pandas  SIMILARITY: 0.317517105675
+query similarity : Q1:  how many months decade Q2: paine king legitimate power children  SIMILARITY: 0.0066054056483
+query similarity : Q1:  how many months decade Q2: group of panda  SIMILARITY: 0.282470119522
+query similarity : Q1:  how many months decade Q2: widow  SIMILARITY: 0.150143266476
+query similarity : Q1:  how many months decade Q2: decade in years  SIMILARITY: 0.613483146067
+query similarity : Q1:  how many months decade Q2: high transaction costs  SIMILARITY: 0.0436810856658
+query similarity : Q1:  how many months decade Q2: pandas  SIMILARITY: 0.249180327869
+query similarity : Q1:  how many months decade Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.269979296066
+query similarity : Q1:  how many months decade Q2: u.s coin nickel  SIMILARITY: 0.00182501341922
+query similarity : Q1:  how many months decade Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.000417233071778
+query similarity : Q1:  how many months decade Q2: nickle  SIMILARITY: 0.124320470546
+query similarity : Q1:  how many months decade Q2: 50 cent nickel  SIMILARITY: 0.0171612903226
+query similarity : Q1:  how many months decade Q2: "4th of july" "Great Britain"  SIMILARITY: 0.0123255196736
+query similarity : Q1:  group of pandas Q2: plane crash us canada border bury  SIMILARITY: 0.207762557078
+query similarity : Q1:  group of pandas Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.022271714922
+query similarity : Q1:  group of pandas Q2: great britain 4th of july  SIMILARITY: 0.0935328701229
+query similarity : Q1:  group of pandas Q2: great britain july4th  SIMILARITY: 1.8291571754
+query similarity : Q1:  group of pandas Q2: nickel  SIMILARITY: 0.185093915996
+query similarity : Q1:  group of pandas Q2: decade  SIMILARITY: 0.0173634299452
+query similarity : Q1:  group of pandas Q2: plane crach victime bury  SIMILARITY: 0.734893848666
+query similarity : Q1:  group of pandas Q2: higher transaction costs  SIMILARITY: 0.630295250321
+query similarity : Q1:  group of pandas Q2: marry "widows" sister california  SIMILARITY: 0.36345177665
+query similarity : Q1:  group of pandas Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.022271714922
+query similarity : Q1:  group of pandas Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.912023460411
+query similarity : Q1:  group of pandas Q2: high transaction  SIMILARITY: 0.00158920213345
+query similarity : Q1:  group of pandas Q2: american coin material  SIMILARITY: 1.551468407
+query similarity : Q1:  group of pandas Q2: how many months decade  SIMILARITY: 0.0171727561379
+query similarity : Q1:  group of pandas Q2: 4th july great britain  SIMILARITY: 3.61445783133
+query similarity : Q1:  group of pandas Q2: Paine  SIMILARITY: 0.434913923286
+query similarity : Q1:  group of pandas Q2: california marry "widows" sister  SIMILARITY: 0.340594059406
+query similarity : Q1:  group of pandas Q2: "theres" no such thing   SIMILARITY: 0.0376116978067
+query similarity : Q1:  group of pandas Q2: high transaction costs  SIMILARITY: 0.0286826735886
+query similarity : Q1:  group of pandas Q2: High transaction costs will tend to  SIMILARITY: 0.325352112676
+query similarity : Q1:  group of pandas Q2: decade  SIMILARITY: 0.0173634299452
+query similarity : Q1:  group of pandas Q2: how many months decade  SIMILARITY: 0.0171727561379
+query similarity : Q1:  group of pandas Q2: paine king legitimate power children  SIMILARITY: 0.24686774942
+query similarity : Q1:  group of pandas Q2: group of panda  SIMILARITY: 0.0292388108461
+query similarity : Q1:  group of pandas Q2: widow  SIMILARITY: 0.350672576005
+query similarity : Q1:  group of pandas Q2: decade in years  SIMILARITY: 0.350385111972
+query similarity : Q1:  group of pandas Q2: high transaction costs  SIMILARITY: 0.0286826735886
+query similarity : Q1:  group of pandas Q2: pandas  SIMILARITY: 1.44006776789
+query similarity : Q1:  group of pandas Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.648981525343
+query similarity : Q1:  group of pandas Q2: u.s coin nickel  SIMILARITY: 5.23659305994
+query similarity : Q1:  group of pandas Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.0199441563622
+query similarity : Q1:  group of pandas Q2: nickle  SIMILARITY: 8.38709677419
+query similarity : Q1:  group of pandas Q2: 50 cent nickel  SIMILARITY: 0.503715937242
+query similarity : Q1:  group of pandas Q2: "4th of july" "Great Britain"  SIMILARITY: 0.135912179822
+query similarity : Q1:  paine king legitimate power children Q2: plane crash us canada border bury  SIMILARITY: 0.84133915575
+query similarity : Q1:  paine king legitimate power children Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.0273597811218
+query similarity : Q1:  paine king legitimate power children Q2: great britain 4th of july  SIMILARITY: 0.295267781241
+query similarity : Q1:  paine king legitimate power children Q2: great britain july4th  SIMILARITY: 1.6030075188
+query similarity : Q1:  paine king legitimate power children Q2: nickel  SIMILARITY: 0.00246770773087
+query similarity : Q1:  paine king legitimate power children Q2: decade  SIMILARITY: 0.00679952582254
+query similarity : Q1:  paine king legitimate power children Q2: plane crach victime bury  SIMILARITY: 3.70466321244
+query similarity : Q1:  paine king legitimate power children Q2: higher transaction costs  SIMILARITY: 0.4
+query similarity : Q1:  paine king legitimate power children Q2: marry "widows" sister california  SIMILARITY: 3.42541436464
+query similarity : Q1:  paine king legitimate power children Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.0273597811218
+query similarity : Q1:  paine king legitimate power children Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.82302771855
+query similarity : Q1:  paine king legitimate power children Q2: high transaction  SIMILARITY: 0.00135132674061
+query similarity : Q1:  paine king legitimate power children Q2: american coin material  SIMILARITY: 2.64359013631
+query similarity : Q1:  paine king legitimate power children Q2: how many months decade  SIMILARITY: 0.00651553618369
+query similarity : Q1:  paine king legitimate power children Q2: 4th july great britain  SIMILARITY: 0.0247329960652
+query similarity : Q1:  paine king legitimate power children Q2: Paine  SIMILARITY: 1.13590263692
+query similarity : Q1:  paine king legitimate power children Q2: california marry "widows" sister  SIMILARITY: 3.23560209424
+query similarity : Q1:  paine king legitimate power children Q2: "theres" no such thing   SIMILARITY: 0.0112049799911
+query similarity : Q1:  paine king legitimate power children Q2: high transaction costs  SIMILARITY: 0.20355524573
+query similarity : Q1:  paine king legitimate power children Q2: High transaction costs will tend to  SIMILARITY: 0.167357083679
+query similarity : Q1:  paine king legitimate power children Q2: decade  SIMILARITY: 0.00679952582254
+query similarity : Q1:  paine king legitimate power children Q2: how many months decade  SIMILARITY: 0.00651553618369
+query similarity : Q1:  paine king legitimate power children Q2: group of pandas  SIMILARITY: 0.245939675174
+query similarity : Q1:  paine king legitimate power children Q2: group of panda  SIMILARITY: 0.017938737519
+query similarity : Q1:  paine king legitimate power children Q2: widow  SIMILARITY: 1.82680622525
+query similarity : Q1:  paine king legitimate power children Q2: decade in years  SIMILARITY: 0.0110492294616
+query similarity : Q1:  paine king legitimate power children Q2: high transaction costs  SIMILARITY: 0.20355524573
+query similarity : Q1:  paine king legitimate power children Q2: pandas  SIMILARITY: 0.037125748503
+query similarity : Q1:  paine king legitimate power children Q2: i have 2 u.s. coins that total 55  SIMILARITY: 1.73609378897
+query similarity : Q1:  paine king legitimate power children Q2: u.s coin nickel  SIMILARITY: 13.1591448931
+query similarity : Q1:  paine king legitimate power children Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.0943134535368
+query similarity : Q1:  paine king legitimate power children Q2: nickle  SIMILARITY: 0.151096121417
+query similarity : Q1:  paine king legitimate power children Q2: 50 cent nickel  SIMILARITY: 0.0139429606157
+query similarity : Q1:  paine king legitimate power children Q2: "4th of july" "Great Britain"  SIMILARITY: 0.0813679245283
+query similarity : Q1:  group of panda Q2: plane crash us canada border bury  SIMILARITY: 0.0147210212065
+query similarity : Q1:  group of panda Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.00123346810114
+query similarity : Q1:  group of panda Q2: great britain 4th of july  SIMILARITY: 0.0366594360087
+query similarity : Q1:  group of panda Q2: great britain july4th  SIMILARITY: 0.0399622404028
+query similarity : Q1:  group of panda Q2: nickel  SIMILARITY: 0.15619047619
+query similarity : Q1:  group of panda Q2: decade  SIMILARITY: 0.0972222222222
+query similarity : Q1:  group of panda Q2: plane crach victime bury  SIMILARITY: 0.0444794197146
+query similarity : Q1:  group of panda Q2: higher transaction costs  SIMILARITY: 0.135872654918
+query similarity : Q1:  group of panda Q2: marry "widows" sister california  SIMILARITY: 0.0235354223433
+query similarity : Q1:  group of panda Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.00123346810114
+query similarity : Q1:  group of panda Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.0805194805195
+query similarity : Q1:  group of panda Q2: high transaction  SIMILARITY: 0.107590759076
+query similarity : Q1:  group of panda Q2: american coin material  SIMILARITY: 0.549918166939
+query similarity : Q1:  group of panda Q2: how many months decade  SIMILARITY: 0.135458167331
+query similarity : Q1:  group of panda Q2: 4th july great britain  SIMILARITY: 1.08701472557
+query similarity : Q1:  group of panda Q2: Paine  SIMILARITY: 0.156694214876
+query similarity : Q1:  group of panda Q2: california marry "widows" sister  SIMILARITY: 0.0225773546413
+query similarity : Q1:  group of panda Q2: "theres" no such thing   SIMILARITY: 0.0103022670025
+query similarity : Q1:  group of panda Q2: high transaction costs  SIMILARITY: 0.010046728972
+query similarity : Q1:  group of panda Q2: High transaction costs will tend to  SIMILARITY: 0.0632067265874
+query similarity : Q1:  group of panda Q2: decade  SIMILARITY: 0.0972222222222
+query similarity : Q1:  group of panda Q2: how many months decade  SIMILARITY: 0.135458167331
+query similarity : Q1:  group of panda Q2: group of pandas  SIMILARITY: 0.0295328324077
+query similarity : Q1:  group of panda Q2: paine king legitimate power children  SIMILARITY: 0.017938737519
+query similarity : Q1:  group of panda Q2: widow  SIMILARITY: 0.162179487179
+query similarity : Q1:  group of panda Q2: decade in years  SIMILARITY: 0.00207142857143
+query similarity : Q1:  group of panda Q2: high transaction costs  SIMILARITY: 0.010046728972
+query similarity : Q1:  group of panda Q2: pandas  SIMILARITY: 0.0136274509804
+query similarity : Q1:  group of panda Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.201855670103
+query similarity : Q1:  group of panda Q2: u.s coin nickel  SIMILARITY: 0.530104712042
+query similarity : Q1:  group of panda Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.00153861591464
+query similarity : Q1:  group of panda Q2: nickle  SIMILARITY: 1.04392106938
+query similarity : Q1:  group of panda Q2: 50 cent nickel  SIMILARITY: 0.148860759494
+query similarity : Q1:  group of panda Q2: "4th of july" "Great Britain"  SIMILARITY: 0.00965771422721
+query similarity : Q1:  widow Q2: plane crash us canada border bury  SIMILARITY: 0.00338204527222
+query similarity : Q1:  widow Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.00334942525121
+query similarity : Q1:  widow Q2: great britain 4th of july  SIMILARITY: 0.0151283830673
+query similarity : Q1:  widow Q2: great britain july4th  SIMILARITY: 0.0816766836184
+query similarity : Q1:  widow Q2: nickel  SIMILARITY: 0.00136688311688
+query similarity : Q1:  widow Q2: decade  SIMILARITY: 0.0425714285714
+query similarity : Q1:  widow Q2: plane crach victime bury  SIMILARITY: 0.0188639203943
+query similarity : Q1:  widow Q2: higher transaction costs  SIMILARITY: 0.0642739150023
+query similarity : Q1:  widow Q2: marry "widows" sister california  SIMILARITY: 0.00291300251256
+query similarity : Q1:  widow Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.00334156275062
+query similarity : Q1:  widow Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.00507763975155
+query similarity : Q1:  widow Q2: high transaction  SIMILARITY: 0.100748129676
+query similarity : Q1:  widow Q2: american coin material  SIMILARITY: 0.411062225016
+query similarity : Q1:  widow Q2: how many months decade  SIMILARITY: 0.154154727794
+query similarity : Q1:  widow Q2: 4th july great britain  SIMILARITY: 0.243073513114
+query similarity : Q1:  widow Q2: Paine  SIMILARITY: 0.00229022082019
+query similarity : Q1:  widow Q2: california marry "widows" sister  SIMILARITY: 0.0029118593517
+query similarity : Q1:  widow Q2: "theres" no such thing   SIMILARITY: 0.0368917937545
+query similarity : Q1:  widow Q2: high transaction costs  SIMILARITY: 0.00517045454545
+query similarity : Q1:  widow Q2: High transaction costs will tend to  SIMILARITY: 0.0215865348328
+query similarity : Q1:  widow Q2: decade  SIMILARITY: 0.0425714285714
+query similarity : Q1:  widow Q2: how many months decade  SIMILARITY: 0.154154727794
+query similarity : Q1:  widow Q2: group of pandas  SIMILARITY: 0.347562397947
+query similarity : Q1:  widow Q2: paine king legitimate power children  SIMILARITY: 0.0108197106903
+query similarity : Q1:  widow Q2: group of panda  SIMILARITY: 0.162179487179
+query similarity : Q1:  widow Q2: decade in years  SIMILARITY: 0.0425714285714
+query similarity : Q1:  widow Q2: high transaction costs  SIMILARITY: 0.00517045454545
+query similarity : Q1:  widow Q2: pandas  SIMILARITY: 0.0211409395973
+query similarity : Q1:  widow Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.178839590444
+query similarity : Q1:  widow Q2: u.s coin nickel  SIMILARITY: 1.57125077785
+query similarity : Q1:  widow Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.00595791926316
+query similarity : Q1:  widow Q2: nickle  SIMILARITY: 0.00325297481069
+query similarity : Q1:  widow Q2: 50 cent nickel  SIMILARITY: 0.0326545454545
+query similarity : Q1:  widow Q2: "4th of july" "Great Britain"  SIMILARITY: 0.0157891015923
+query similarity : Q1:  decade in years Q2: plane crash us canada border bury  SIMILARITY: 0.00213765225731
+query similarity : Q1:  decade in years Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.00263905442098
+query similarity : Q1:  decade in years Q2: great britain 4th of july  SIMILARITY: 0.172844648063
+query similarity : Q1:  decade in years Q2: great britain july4th  SIMILARITY: 0.0251572327044
+query similarity : Q1:  decade in years Q2: nickel  SIMILARITY: 0.139108910891
+query similarity : Q1:  decade in years Q2: decade  SIMILARITY: 0.502242152466
+query similarity : Q1:  decade in years Q2: plane crach victime bury  SIMILARITY: 0.0219955471336
+query similarity : Q1:  decade in years Q2: higher transaction costs  SIMILARITY: 0.0497425604328
+query similarity : Q1:  decade in years Q2: marry "widows" sister california  SIMILARITY: 0.029638252149
+query similarity : Q1:  decade in years Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.00263905442098
+query similarity : Q1:  decade in years Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.0162366548043
+query similarity : Q1:  decade in years Q2: high transaction  SIMILARITY: 0.114889336016
+query similarity : Q1:  decade in years Q2: american coin material  SIMILARITY: 0.104664837319
+query similarity : Q1:  decade in years Q2: how many months decade  SIMILARITY: 0.970786516854
+query similarity : Q1:  decade in years Q2: 4th july great britain  SIMILARITY: 0.410200994165
+query similarity : Q1:  decade in years Q2: Paine  SIMILARITY: 0.0801571709234
+query similarity : Q1:  decade in years Q2: california marry "widows" sister  SIMILARITY: 0.0294973367352
+query similarity : Q1:  decade in years Q2: "theres" no such thing   SIMILARITY: 0.0158322635858
+query similarity : Q1:  decade in years Q2: high transaction costs  SIMILARITY: 0.0646114864865
+query similarity : Q1:  decade in years Q2: High transaction costs will tend to  SIMILARITY: 0.0280975097378
+query similarity : Q1:  decade in years Q2: decade  SIMILARITY: 0.502242152466
+query similarity : Q1:  decade in years Q2: how many months decade  SIMILARITY: 0.970786516854
+query similarity : Q1:  decade in years Q2: group of pandas  SIMILARITY: 0.349049463515
+query similarity : Q1:  decade in years Q2: paine king legitimate power children  SIMILARITY: 0.0111834306292
+query similarity : Q1:  decade in years Q2: group of panda  SIMILARITY: 0.0964285714286
+query similarity : Q1:  decade in years Q2: widow  SIMILARITY: 0.0425714285714
+query similarity : Q1:  decade in years Q2: high transaction costs  SIMILARITY: 0.0646114864865
+query similarity : Q1:  decade in years Q2: pandas  SIMILARITY: 0.00448979591837
+query similarity : Q1:  decade in years Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.23175257732
+query similarity : Q1:  decade in years Q2: u.s coin nickel  SIMILARITY: 0.00191930887068
+query similarity : Q1:  decade in years Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.00373832610531
+query similarity : Q1:  decade in years Q2: nickle  SIMILARITY: 0.249312394641
+query similarity : Q1:  decade in years Q2: 50 cent nickel  SIMILARITY: 0.018244111349
+query similarity : Q1:  decade in years Q2: "4th of july" "Great Britain"  SIMILARITY: 0.0289293023381
+query similarity : Q1:  high transaction costs Q2: plane crash us canada border bury  SIMILARITY: 0.00251040022952
+query similarity : Q1:  high transaction costs Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.00693550693551
+query similarity : Q1:  high transaction costs Q2: great britain 4th of july  SIMILARITY: 0.0126537216828
+query similarity : Q1:  high transaction costs Q2: great britain july4th  SIMILARITY: 0.140530759952
+query similarity : Q1:  high transaction costs Q2: nickel  SIMILARITY: 0.00544147843943
+query similarity : Q1:  high transaction costs Q2: decade  SIMILARITY: 0.0106418918919
+query similarity : Q1:  high transaction costs Q2: plane crach victime bury  SIMILARITY: 0.07485563556
+query similarity : Q1:  high transaction costs Q2: higher transaction costs  SIMILARITY: 0.755755755756
+query similarity : Q1:  high transaction costs Q2: marry "widows" sister california  SIMILARITY: 0.0079802259887
+query similarity : Q1:  high transaction costs Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.00693550693551
+query similarity : Q1:  high transaction costs Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.0419871794872
+query similarity : Q1:  high transaction costs Q2: high transaction  SIMILARITY: 0.158790826963
+query similarity : Q1:  high transaction costs Q2: american coin material  SIMILARITY: 0.0490196078431
+query similarity : Q1:  high transaction costs Q2: how many months decade  SIMILARITY: 0.0373197625106
+query similarity : Q1:  high transaction costs Q2: 4th july great britain  SIMILARITY: 0.0591422121896
+query similarity : Q1:  high transaction costs Q2: Paine  SIMILARITY: 0.39293598234
+query similarity : Q1:  high transaction costs Q2: california marry "widows" sister  SIMILARITY: 0.00802251935257
+query similarity : Q1:  high transaction costs Q2: "theres" no such thing   SIMILARITY: 0.0395918367347
+query similarity : Q1:  high transaction costs Q2: high transaction costs  SIMILARITY: 1.48913043478
+query similarity : Q1:  high transaction costs Q2: High transaction costs will tend to  SIMILARITY: 0.504406428201
+query similarity : Q1:  high transaction costs Q2: decade  SIMILARITY: 0.0106418918919
+query similarity : Q1:  high transaction costs Q2: how many months decade  SIMILARITY: 0.0373197625106
+query similarity : Q1:  high transaction costs Q2: group of pandas  SIMILARITY: 0.0288124594419
+query similarity : Q1:  high transaction costs Q2: paine king legitimate power children  SIMILARITY: 0.269083304287
+query similarity : Q1:  high transaction costs Q2: group of panda  SIMILARITY: 0.294392523364
+query similarity : Q1:  high transaction costs Q2: widow  SIMILARITY: 0.00517045454545
+query similarity : Q1:  high transaction costs Q2: decade in years  SIMILARITY: 0.0599662162162
+query similarity : Q1:  high transaction costs Q2: pandas  SIMILARITY: 0.801675977654
+query similarity : Q1:  high transaction costs Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.0196396396396
+query similarity : Q1:  high transaction costs Q2: u.s coin nickel  SIMILARITY: 0.0487630208333
+query similarity : Q1:  high transaction costs Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.00381030142206
+query similarity : Q1:  high transaction costs Q2: nickle  SIMILARITY: 0.0653514180025
+query similarity : Q1:  high transaction costs Q2: 50 cent nickel  SIMILARITY: 0.00246913580247
+query similarity : Q1:  high transaction costs Q2: "4th of july" "Great Britain"  SIMILARITY: 0.0500602708644
+query similarity : Q1:  pandas Q2: plane crash us canada border bury  SIMILARITY: 0.016981302502
+query similarity : Q1:  pandas Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.0247904083656
+query similarity : Q1:  pandas Q2: great britain 4th of july  SIMILARITY: 0.0106393861893
+query similarity : Q1:  pandas Q2: great britain july4th  SIMILARITY: 0.649717514124
+query similarity : Q1:  pandas Q2: nickel  SIMILARITY: 0.000625615763547
+query similarity : Q1:  pandas Q2: decade  SIMILARITY: 0.00147346938776
+query similarity : Q1:  pandas Q2: plane crach victime bury  SIMILARITY: 0.100328429388
+query similarity : Q1:  pandas Q2: higher transaction costs  SIMILARITY: 0.41873669269
+query similarity : Q1:  pandas Q2: marry "widows" sister california  SIMILARITY: 0.0403398926655
+query similarity : Q1:  pandas Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.0247904083656
+query similarity : Q1:  pandas Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.218907563025
+query similarity : Q1:  pandas Q2: high transaction  SIMILARITY: 0.00469594594595
+query similarity : Q1:  pandas Q2: american coin material  SIMILARITY: 1.12939001848
+query similarity : Q1:  pandas Q2: how many months decade  SIMILARITY: 0.0324180327869
+query similarity : Q1:  pandas Q2: 4th july great britain  SIMILARITY: 1.73640856672
+query similarity : Q1:  pandas Q2: Paine  SIMILARITY: 0.155327102804
+query similarity : Q1:  pandas Q2: california marry "widows" sister  SIMILARITY: 0.0385542168675
+query similarity : Q1:  pandas Q2: "theres" no such thing   SIMILARITY: 0.00330275229358
+query similarity : Q1:  pandas Q2: high transaction costs  SIMILARITY: 0.689944134078
+query similarity : Q1:  pandas Q2: High transaction costs will tend to  SIMILARITY: 0.0883957802837
+query similarity : Q1:  pandas Q2: decade  SIMILARITY: 0.00147346938776
+query similarity : Q1:  pandas Q2: how many months decade  SIMILARITY: 0.0324180327869
+query similarity : Q1:  pandas Q2: group of pandas  SIMILARITY: 0.135112240576
+query similarity : Q1:  pandas Q2: paine king legitimate power children  SIMILARITY: 0.0354845863828
+query similarity : Q1:  pandas Q2: group of panda  SIMILARITY: 0.0123725490196
+query similarity : Q1:  pandas Q2: widow  SIMILARITY: 0.00140939597315
+query similarity : Q1:  pandas Q2: decade in years  SIMILARITY: 0.00489795918367
+query similarity : Q1:  pandas Q2: high transaction costs  SIMILARITY: 0.689944134078
+query similarity : Q1:  pandas Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.421686746988
+query similarity : Q1:  pandas Q2: u.s coin nickel  SIMILARITY: 0.938030560272
+query similarity : Q1:  pandas Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.00218369218675
+query similarity : Q1:  pandas Q2: nickle  SIMILARITY: 0.00520065520066
+query similarity : Q1:  pandas Q2: 50 cent nickel  SIMILARITY: 0.276615384615
+query similarity : Q1:  pandas Q2: "4th of july" "Great Britain"  SIMILARITY: 0.00955028471506
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: plane crash us canada border bury  SIMILARITY: 0.00168007331229
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.0980392156863
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: great britain 4th of july  SIMILARITY: 0.0598360655738
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: great britain july4th  SIMILARITY: 0.0619389587074
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: nickel  SIMILARITY: 0.00294264339152
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: decade  SIMILARITY: 0.231340206186
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: plane crach victime bury  SIMILARITY: 0.0241293658438
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: higher transaction costs  SIMILARITY: 0.0380451713396
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: marry "widows" sister california  SIMILARITY: 0.0745216515609
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.0103118967794
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.0132394366197
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: high transaction  SIMILARITY: 0.0879045996593
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: american coin material  SIMILARITY: 0.860465116279
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: how many months decade  SIMILARITY: 0.269979296066
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: 4th july great britain  SIMILARITY: 1.07001795332
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: Paine  SIMILARITY: 0.0109411764706
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: california marry "widows" sister  SIMILARITY: 0.0743345052737
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: "theres" no such thing   SIMILARITY: 0.0164900662252
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: high transaction costs  SIMILARITY: 0.0196996996997
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: High transaction costs will tend to  SIMILARITY: 0.118847539016
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: decade  SIMILARITY: 0.231340206186
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: how many months decade  SIMILARITY: 0.269979296066
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: group of pandas  SIMILARITY: 0.648981525343
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: paine king legitimate power children  SIMILARITY: 1.73110501372
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: group of panda  SIMILARITY: 0.201649484536
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: widow  SIMILARITY: 0.178839590444
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: decade in years  SIMILARITY: 0.230927835052
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: high transaction costs  SIMILARITY: 0.0196996996997
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: pandas  SIMILARITY: 0.424096385542
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: u.s coin nickel  SIMILARITY: 0.0139601139601
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.0108349267049
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: nickle  SIMILARITY: 0.0269160583942
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: 50 cent nickel  SIMILARITY: 0.065
+query similarity : Q1:  i have 2 u.s. coins that total 55 Q2: "4th of july" "Great Britain"  SIMILARITY: 0.0208049285462
+query similarity : Q1:  u.s coin nickel Q2: plane crash us canada border bury  SIMILARITY: 0.0387779083431
+query similarity : Q1:  u.s coin nickel Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.0463917525773
+query similarity : Q1:  u.s coin nickel Q2: great britain 4th of july  SIMILARITY: 0.085744908896
+query similarity : Q1:  u.s coin nickel Q2: great britain july4th  SIMILARITY: 0.109677419355
+query similarity : Q1:  u.s coin nickel Q2: nickel  SIMILARITY: 0.0144609991236
+query similarity : Q1:  u.s coin nickel Q2: decade  SIMILARITY: 0.00190149625935
+query similarity : Q1:  u.s coin nickel Q2: plane crach victime bury  SIMILARITY: 1.44935646335
+query similarity : Q1:  u.s coin nickel Q2: higher transaction costs  SIMILARITY: 0.0706718346253
+query similarity : Q1:  u.s coin nickel Q2: marry "widows" sister california  SIMILARITY: 0.289583333333
+query similarity : Q1:  u.s coin nickel Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.0463917525773
+query similarity : Q1:  u.s coin nickel Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.0669642857143
+query similarity : Q1:  u.s coin nickel Q2: high transaction  SIMILARITY: 0.0852808825664
+query similarity : Q1:  u.s coin nickel Q2: american coin material  SIMILARITY: 0.0295306001188
+query similarity : Q1:  u.s coin nickel Q2: how many months decade  SIMILARITY: 0.0984075863303
+query similarity : Q1:  u.s coin nickel Q2: 4th july great britain  SIMILARITY: 2.09889001009
+query similarity : Q1:  u.s coin nickel Q2: Paine  SIMILARITY: 0.134603750756
+query similarity : Q1:  u.s coin nickel Q2: california marry "widows" sister  SIMILARITY: 0.267005076142
+query similarity : Q1:  u.s coin nickel Q2: "theres" no such thing   SIMILARITY: 0.00783034257749
+query similarity : Q1:  u.s coin nickel Q2: high transaction costs  SIMILARITY: 0.0487630208333
+query similarity : Q1:  u.s coin nickel Q2: High transaction costs will tend to  SIMILARITY: 0.0221276595745
+query similarity : Q1:  u.s coin nickel Q2: decade  SIMILARITY: 0.00190149625935
+query similarity : Q1:  u.s coin nickel Q2: how many months decade  SIMILARITY: 0.0984075863303
+query similarity : Q1:  u.s coin nickel Q2: group of pandas  SIMILARITY: 5.26813880126
+query similarity : Q1:  u.s coin nickel Q2: paine king legitimate power children  SIMILARITY: 0.180522565321
+query similarity : Q1:  u.s coin nickel Q2: group of panda  SIMILARITY: 0.530104712042
+query similarity : Q1:  u.s coin nickel Q2: widow  SIMILARITY: 0.138456751711
+query similarity : Q1:  u.s coin nickel Q2: decade in years  SIMILARITY: 0.00191930887068
+query similarity : Q1:  u.s coin nickel Q2: high transaction costs  SIMILARITY: 0.0487630208333
+query similarity : Q1:  u.s coin nickel Q2: pandas  SIMILARITY: 0.0113752122241
+query similarity : Q1:  u.s coin nickel Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.0139601139601
+query similarity : Q1:  u.s coin nickel Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.043956043956
+query similarity : Q1:  u.s coin nickel Q2: nickle  SIMILARITY: 0.0434673366834
+query similarity : Q1:  u.s coin nickel Q2: 50 cent nickel  SIMILARITY: 0.0464344941957
+query similarity : Q1:  u.s coin nickel Q2: "4th of july" "Great Britain"  SIMILARITY: 0.0440150295223
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: plane crash us canada border bury  SIMILARITY: 0.00192492781521
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.000923361034164
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: great britain 4th of july  SIMILARITY: 0.00494526865589
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: great britain july4th  SIMILARITY: 0.0114223551809
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: nickel  SIMILARITY: 0.000885116302083
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: decade  SIMILARITY: 0.00312197126357
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: plane crach victime bury  SIMILARITY: 0.0186832740214
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: higher transaction costs  SIMILARITY: 0.00127172530733
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: marry "widows" sister california  SIMILARITY: 0.0771678599841
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.000923361034164
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.00074156470152
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: high transaction  SIMILARITY: 0.0013277700375
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: american coin material  SIMILARITY: 0.0137285207746
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: how many months decade  SIMILARITY: 0.00313149122689
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: 4th july great britain  SIMILARITY: 0.0419595544501
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: Paine  SIMILARITY: 0.02765688181
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: california marry "widows" sister  SIMILARITY: 0.0107115531752
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: "theres" no such thing   SIMILARITY: 0.00103475036647
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: high transaction costs  SIMILARITY: 0.000612369871402
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: High transaction costs will tend to  SIMILARITY: 0.00814153749804
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: decade  SIMILARITY: 0.00312197126357
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: how many months decade  SIMILARITY: 0.00313149122689
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: group of pandas  SIMILARITY: 0.0199441563622
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: paine king legitimate power children  SIMILARITY: 0.620665742025
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: group of panda  SIMILARITY: 0.00153861591464
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: widow  SIMILARITY: 0.00596573805484
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: decade in years  SIMILARITY: 0.00402863816844
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: high transaction costs  SIMILARITY: 0.000612369871402
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: pandas  SIMILARITY: 0.00218369218675
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.00186301907143
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: u.s coin nickel  SIMILARITY: 0.044363044363
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: nickle  SIMILARITY: 0.0494422671088
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: 50 cent nickel  SIMILARITY: 0.00491357374748
+query similarity : Q1:  Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position Q2: "4th of july" "Great Britain"  SIMILARITY: 0.000833333333333
+query similarity : Q1:  nickle Q2: plane crash us canada border bury  SIMILARITY: 0.0308352849336
+query similarity : Q1:  nickle Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.0433614735226
+query similarity : Q1:  nickle Q2: great britain 4th of july  SIMILARITY: 0.0371413934426
+query similarity : Q1:  nickle Q2: great britain july4th  SIMILARITY: 2.13461538462
+query similarity : Q1:  nickle Q2: nickel  SIMILARITY: 0.00286773525243
+query similarity : Q1:  nickle Q2: decade  SIMILARITY: 0.0161476355248
+query similarity : Q1:  nickle Q2: plane crach victime bury  SIMILARITY: 0.341896486589
+query similarity : Q1:  nickle Q2: higher transaction costs  SIMILARITY: 1.01511627907
+query similarity : Q1:  nickle Q2: marry "widows" sister california  SIMILARITY: 0.41726618705
+query similarity : Q1:  nickle Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.0433614735226
+query similarity : Q1:  nickle Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.815165876777
+query similarity : Q1:  nickle Q2: high transaction  SIMILARITY: 0.200781419579
+query similarity : Q1:  nickle Q2: american coin material  SIMILARITY: 0.015382387022
+query similarity : Q1:  nickle Q2: how many months decade  SIMILARITY: 0.123874877462
+query similarity : Q1:  nickle Q2: 4th july great britain  SIMILARITY: 5.17177344475
+query similarity : Q1:  nickle Q2: Paine  SIMILARITY: 0.025
+query similarity : Q1:  nickle Q2: california marry "widows" sister  SIMILARITY: 0.371024734982
+query similarity : Q1:  nickle Q2: "theres" no such thing   SIMILARITY: 0.416920731707
+query similarity : Q1:  nickle Q2: high transaction costs  SIMILARITY: 0.0653514180025
+query similarity : Q1:  nickle Q2: High transaction costs will tend to  SIMILARITY: 0.428571428571
+query similarity : Q1:  nickle Q2: decade  SIMILARITY: 0.0161476355248
+query similarity : Q1:  nickle Q2: how many months decade  SIMILARITY: 0.123874877462
+query similarity : Q1:  nickle Q2: group of pandas  SIMILARITY: 8.41191066998
+query similarity : Q1:  nickle Q2: paine king legitimate power children  SIMILARITY: 1.63912310287
+query similarity : Q1:  nickle Q2: group of panda  SIMILARITY: 1.04392106938
+query similarity : Q1:  nickle Q2: widow  SIMILARITY: 0.0103538865709
+query similarity : Q1:  nickle Q2: decade in years  SIMILARITY: 0.0456924851389
+query similarity : Q1:  nickle Q2: high transaction costs  SIMILARITY: 0.0653514180025
+query similarity : Q1:  nickle Q2: pandas  SIMILARITY: 0.00462735462735
+query similarity : Q1:  nickle Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.0269160583942
+query similarity : Q1:  nickle Q2: u.s coin nickel  SIMILARITY: 0.0434673366834
+query similarity : Q1:  nickle Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.0494422671088
+query similarity : Q1:  nickle Q2: 50 cent nickel  SIMILARITY: 0.0325851393189
+query similarity : Q1:  nickle Q2: "4th of july" "Great Britain"  SIMILARITY: 0.155710613294
+query similarity : Q1:  50 cent nickel Q2: plane crash us canada border bury  SIMILARITY: 0.0023491824845
+query similarity : Q1:  50 cent nickel Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.00290099195209
+query similarity : Q1:  50 cent nickel Q2: great britain 4th of july  SIMILARITY: 0.0590579710145
+query similarity : Q1:  50 cent nickel Q2: great britain july4th  SIMILARITY: 0.0356927710843
+query similarity : Q1:  50 cent nickel Q2: nickel  SIMILARITY: 0.0384334203655
+query similarity : Q1:  50 cent nickel Q2: decade  SIMILARITY: 0.0185867237687
+query similarity : Q1:  50 cent nickel Q2: plane crach victime bury  SIMILARITY: 0.0156614151207
+query similarity : Q1:  50 cent nickel Q2: higher transaction costs  SIMILARITY: 0.0182853717026
+query similarity : Q1:  50 cent nickel Q2: marry "widows" sister california  SIMILARITY: 0.0617863720074
+query similarity : Q1:  50 cent nickel Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.00290099195209
+query similarity : Q1:  50 cent nickel Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.0128455284553
+query similarity : Q1:  50 cent nickel Q2: high transaction  SIMILARITY: 0.00980667838313
+query similarity : Q1:  50 cent nickel Q2: american coin material  SIMILARITY: 0.0109389671362
+query similarity : Q1:  50 cent nickel Q2: how many months decade  SIMILARITY: 0.0172043010753
+query similarity : Q1:  50 cent nickel Q2: 4th july great britain  SIMILARITY: 0.615384615385
+query similarity : Q1:  50 cent nickel Q2: Paine  SIMILARITY: 0.0234285714286
+query similarity : Q1:  50 cent nickel Q2: california marry "widows" sister  SIMILARITY: 0.0571952337305
+query similarity : Q1:  50 cent nickel Q2: "theres" no such thing   SIMILARITY: 0.0027358490566
+query similarity : Q1:  50 cent nickel Q2: high transaction costs  SIMILARITY: 0.00246913580247
+query similarity : Q1:  50 cent nickel Q2: High transaction costs will tend to  SIMILARITY: 0.00587867417136
+query similarity : Q1:  50 cent nickel Q2: decade  SIMILARITY: 0.0185867237687
+query similarity : Q1:  50 cent nickel Q2: how many months decade  SIMILARITY: 0.0172043010753
+query similarity : Q1:  50 cent nickel Q2: group of pandas  SIMILARITY: 0.502064409579
+query similarity : Q1:  50 cent nickel Q2: paine king legitimate power children  SIMILARITY: 0.0143956541421
+query similarity : Q1:  50 cent nickel Q2: group of panda  SIMILARITY: 0.14835443038
+query similarity : Q1:  50 cent nickel Q2: widow  SIMILARITY: 0.0325818181818
+query similarity : Q1:  50 cent nickel Q2: decade in years  SIMILARITY: 0.018329764454
+query similarity : Q1:  50 cent nickel Q2: high transaction costs  SIMILARITY: 0.00246913580247
+query similarity : Q1:  50 cent nickel Q2: pandas  SIMILARITY: 0.276615384615
+query similarity : Q1:  50 cent nickel Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.065
+query similarity : Q1:  50 cent nickel Q2: u.s coin nickel  SIMILARITY: 0.046600331675
+query similarity : Q1:  50 cent nickel Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.00491357374748
+query similarity : Q1:  50 cent nickel Q2: nickle  SIMILARITY: 0.0325077399381
+query similarity : Q1:  50 cent nickel Q2: "4th of july" "Great Britain"  SIMILARITY: 0.0149032676108
+query similarity : Q1:  "4th of july" "Great Britain" Q2: plane crash us canada border bury  SIMILARITY: 0.0314606741573
+query similarity : Q1:  "4th of july" "Great Britain" Q2: "theres" no such thing as a free lunch  SIMILARITY: 0.0
+query similarity : Q1:  "4th of july" "Great Britain" Q2: great britain 4th of july  SIMILARITY: 0.0174682526001
+query similarity : Q1:  "4th of july" "Great Britain" Q2: great britain july4th  SIMILARITY: 0.0223807979241
+query similarity : Q1:  "4th of july" "Great Britain" Q2: nickel  SIMILARITY: 0.00234414212672
+query similarity : Q1:  "4th of july" "Great Britain" Q2: decade  SIMILARITY: 0.00452300237793
+query similarity : Q1:  "4th of july" "Great Britain" Q2: plane crach victime bury  SIMILARITY: 0.0830188679245
+query similarity : Q1:  "4th of july" "Great Britain" Q2: higher transaction costs  SIMILARITY: 0.118926422952
+query similarity : Q1:  "4th of july" "Great Britain" Q2: marry "widows" sister california  SIMILARITY: 0.494720965309
+query similarity : Q1:  "4th of july" "Great Britain" Q2: "Theres" no such thing as a free lunch  SIMILARITY: 0.0
+query similarity : Q1:  "4th of july" "Great Britain" Q2: a plane crashes where do they bury the survivors  SIMILARITY: 0.0261531145982
+query similarity : Q1:  "4th of july" "Great Britain" Q2: high transaction  SIMILARITY: 0.00696310284612
+query similarity : Q1:  "4th of july" "Great Britain" Q2: american coin material  SIMILARITY: 0.0410455821992
+query similarity : Q1:  "4th of july" "Great Britain" Q2: how many months decade  SIMILARITY: 0.0118306995407
+query similarity : Q1:  "4th of july" "Great Britain" Q2: 4th july great britain  SIMILARITY: 0.00751184560268
+query similarity : Q1:  "4th of july" "Great Britain" Q2: Paine  SIMILARITY: 0.0676036851869
+query similarity : Q1:  "4th of july" "Great Britain" Q2: california marry "widows" sister  SIMILARITY: 0.429172510519
+query similarity : Q1:  "4th of july" "Great Britain" Q2: "theres" no such thing   SIMILARITY: 0.000636190129965
+query similarity : Q1:  "4th of july" "Great Britain" Q2: high transaction costs  SIMILARITY: 0.0502020846628
+query similarity : Q1:  "4th of july" "Great Britain" Q2: High transaction costs will tend to  SIMILARITY: 0.0
+query similarity : Q1:  "4th of july" "Great Britain" Q2: decade  SIMILARITY: 0.00452300237793
+query similarity : Q1:  "4th of july" "Great Britain" Q2: how many months decade  SIMILARITY: 0.0118306995407
+query similarity : Q1:  "4th of july" "Great Britain" Q2: group of pandas  SIMILARITY: 0.136957658129
+query similarity : Q1:  "4th of july" "Great Britain" Q2: paine king legitimate power children  SIMILARITY: 0.0837264150943
+query similarity : Q1:  "4th of july" "Great Britain" Q2: group of panda  SIMILARITY: 0.00969184042589
+query similarity : Q1:  "4th of july" "Great Britain" Q2: widow  SIMILARITY: 0.0157891015923
+query similarity : Q1:  "4th of july" "Great Britain" Q2: decade in years  SIMILARITY: 0.0291979955486
+query similarity : Q1:  "4th of july" "Great Britain" Q2: high transaction costs  SIMILARITY: 0.0502020846628
+query similarity : Q1:  "4th of july" "Great Britain" Q2: pandas  SIMILARITY: 0.00968479576739
+query similarity : Q1:  "4th of july" "Great Britain" Q2: i have 2 u.s. coins that total 55  SIMILARITY: 0.0208049285462
+query similarity : Q1:  "4th of july" "Great Britain" Q2: u.s coin nickel  SIMILARITY: 0.0440150295223
+query similarity : Q1:  "4th of july" "Great Britain" Q2: Even if a king gains legitimate power why does Paine think that "kings" children should not automatically attain the same position  SIMILARITY: 0.00166666666667
+query similarity : Q1:  "4th of july" "Great Britain" Q2: nickle  SIMILARITY: 0.156077855307
+query similarity : Q1:  "4th of july" "Great Britain" Q2: 50 cent nickel  SIMILARITY: 0.0149032676108

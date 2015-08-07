@@ -2,9 +2,11 @@ import pandas as pd
 import os
 import urllib
 import urllib2
-from urlparse import parse_qsl
 
 from sets import Set
+
+
+from boilerpipe.extract import Extractor
 
 
 class UMF_Indexer:
@@ -24,4 +26,9 @@ class UMF_Indexer:
         return urlList
 
     def getDocumentFromURL(self,url):
-        pass
+        extractor = Extractor(extractor='ArticleExtractor',url=url)
+        processed_plaintext = extractor.getText()
+
+        return processed_plaintext
+        
+    

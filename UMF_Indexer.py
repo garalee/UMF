@@ -18,40 +18,93 @@ class UMF_Indexer:
     def __init__(self):
         self.es = Elasticsearch([{'host':'localhost','port':9200}])
 
+    # build query document vector
+    def build_all_qd_vector(self,directory):        
+        for idx,f in enumerate(os.listdir(directory)):
+            if f.endswith('.csv'):
+                self.build_qd_vector(directory + '/' +f)
+                print "FILE:",f, "has been Done"
+
+
+    def build_qd_vector(self,filename):
+        data = pd.read_csv(open(filename),sep='\t',names=['query','document','time'])
+        
+        querySet = []
+        docSet = []
+
+        for index,entry in data.iterrows():
+            q = entry['query']
+            q = q.replace('\'','')
+            q = q.replace(']','')
+            q = q.replace('[','')
+            q = q.replace(',','')
+            q = q.replace('\"','')
+            
+            if not q in querySet:
+                querySet.append(q)
+            
+            d = entry['document']
+
+            if not d in docSet:
+                if ('http' in d) or ('https' in d):
+                    docSet.append(entry['document'])
+
+            
+
+         for entry in docSet:
+            document = self.getDocumentFromURL(entry)
+        
+
+
     # Processing a local file for indexing into Elasticsearch.
     # It reads
     def processFile(self,filename):
         ID = filename.split('.')[0]
         cnt = 0
-        question = ID[3]
+        question = ID.split('_')[3]
 
         data = pd.read_csv(open(filename),sep='\t',names=['query','document','time'])
         
-        querySet = Set()
-        docSet = Set()
+        querySet = []
+        docSet = []
         print "Processing file:",filename
 
         # Remove duplicate queries and documents
         for index,entry in data.iterrows():
-            querySet = querySet | Set(entry['query'])
-            docSet = docSet | Set(entry['document'])
+            q = entry['query']
+            q = q.replace('\'','')
+            q = q.replace(']','')
+            q = q.replace('[','')
+            q = q.replace(',','')
+            q = q.replace('\"','')
+            if not q in querySet:
+                querySet.append(q)
+            
+            d = entry['document']
+
+            if not d in docSet:
+                if ('http' in d) or ('https' in d):
+                    docSet.append(entry['document'])
 
         # Index query
         for entry in querySet:
-            docin = { 'id' : '_'.join(ID) + '_' + str(cnt), 'query' : entry, 'question': question}
+            docin = { 'id' : ID + '_' + str(cnt), 'query' : entry, 'question': question}
             self.queryIndexing(docin)
+            cnt = cnt + 1
 
         # Index document
         cnt = 0
         for entry in docSet:
             document = self.getDocumentFromURL(entry)
-            docin = { 'id' : '_'.join(ID) + '_' + str(cnt), 'document' : document, 'question' : question}
+            docin = { 'id' : ID + '_' + str(cnt), 'document' : document, 'question' : question}
             self.documentIndexing(docin)
-            
+            cnt = cnt + 1
+
     def processAllExperiments(self,directory):
-        for f in os.listdir(directory):
+        for idx,f in enumerate(os.listdir(directory)):
             if f.endswith('.csv'):
                 self.processFile(directory + '/' +f)
+                print "FILE:",f, "has been Done"
 
     # Document that each user read is saved in form of URL,
     # this function read all files in the local directory(variable 'directory'),
@@ -70,6 +123,7 @@ class UMF_Indexer:
     # Getting Body Text extracted from Web page
     # Return the extracted document
     def getDocumentFromURL(self,url):
+        print 'searching...',url
         extractor = Extractor(extractor='ArticleExtractor',url=url)
         processed_plaintext = extractor.getText()
 

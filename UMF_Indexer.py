@@ -18,17 +18,20 @@ class UMF_Indexer:
     def __init__(self):
         self.es = Elasticsearch([{'host':'localhost','port':9200}])
 
-    # build query document vector
-    def build_all_qd_vector(self,directory):        
+    # build query vector
+    def build_all_query_vector(self,directory):        
         for idx,f in enumerate(os.listdir(directory)):
             if f.endswith('.csv'):
                 self.build_qd_vector(directory + '/' +f)
                 print "FILE:",f, "has been Done"
 
-
-    def build_qd_vector(self,filename):
+    # build document vector
+    def build_query_vector(self,filename):
+        name = filename.split(
         data = pd.read_csv(open(filename),sep='\t',names=['query','document','time'])
-        
+
+        vector = pd.DataFrame()
+
         querySet = []
         docSet = []
 
@@ -50,11 +53,10 @@ class UMF_Indexer:
                     docSet.append(entry['document'])
 
             
-
-         for entry in docSet:
+        for entry in docSet:
             document = self.getDocumentFromURL(entry)
-        
 
+        
 
     # Processing a local file for indexing into Elasticsearch.
     # It reads

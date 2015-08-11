@@ -27,13 +27,16 @@ class UMF_Indexer:
 
     # build document vector
     def build_query_vector(self,filename):
-        name = filename.split(
+        bucket = filename.split('_')
+        name = bucket[0]
+        age = bucket[2]
+        question = bucket[3]
+        
         data = pd.read_csv(open(filename),sep='\t',names=['query','document','time'])
 
         vector = pd.DataFrame()
 
         querySet = []
-        docSet = []
 
         for index,entry in data.iterrows():
             q = entry['query']
@@ -46,15 +49,17 @@ class UMF_Indexer:
             if not q in querySet:
                 querySet.append(q)
             
-            d = entry['document']
+            # d = entry['document']
 
-            if not d in docSet:
-                if ('http' in d) or ('https' in d):
-                    docSet.append(entry['document'])
+            # if not d in docSet:
+            #     if ('http' in d) or ('https' in d):
+            #         docSet.append(entry['document'])
 
             
-        for entry in docSet:
-            document = self.getDocumentFromURL(entry)
+        # for entry in docSet:
+        #     document = self.getDocumentFromURL(entry)
+
+        
 
         
 

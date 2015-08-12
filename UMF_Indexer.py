@@ -137,7 +137,6 @@ class UMF_Indexer:
     # Getting Body Text extracted from Web page
     # Return the extracted document
     def getDocumentFromURL(self,url):
-        print 'searching...',url
         extractor = Extractor(extractor='ArticleExtractor',url=url)
         processed_plaintext = extractor.getText()
 

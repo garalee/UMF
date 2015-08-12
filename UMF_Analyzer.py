@@ -1,6 +1,9 @@
 from elasticsearch import Elasticsearch
 from sets import Set
 
+from boilerpipe.extract import Extractor
+
+
 class UMF_Analyzer:
     def __init__(self):
         self.es = Elasticsearch([{'host':'localhost', 'port': 9200}])
@@ -66,7 +69,13 @@ class UMF_Analyzer:
 
         return scores
 
+    # Getting Body Text extracted from Web page
+    # Return the extracted document
+    def getDocumentFromURL(self,url):
+        extractor = Extractor(extractor='DefaultExtractor',url=url)
+        processed_plaintext = extractor.getText()
 
+        return processed_plaintext
 
 
     def calculate_document_similarities(self,dSet1,dSet2):

@@ -1,4 +1,7 @@
 import pandas as pd
+from bs4 import BeautifulSoup
+import urllib2
+
 
 import UMF_Indexer
 import UMF_Analyzer
@@ -11,6 +14,22 @@ if __name__ == "__main__":
     data2 = pd.read_csv('data/CSD_M_34_2.csv',sep='\t',names=['query','document','time'])
 
     # print "SCORE :",analyzer.calculate_query_similarities(data1['query'],data2['query'])
-    print "DOC1 :",data1['document'][0]
-    print "DOC2 :",data2['document'][0]
-    print "DOC SCORE :",analyzer.calculate_document_similarity(data1['document'][0],data2['document'][0])
+    # print "URL1:",data1['document'][0]
+    # print "URL2:",data2['document'][1]
+
+    doc1 = analyzer.getDocumentFromURL(data1['document'][0])
+    doc2 = analyzer.getDocumentFromURL(data2['document'][0])
+
+    # print "DOC1 :",doc1
+    # print "DOC2 :",doc2
+
+    page = urllib2.urlopen('https://answers.yahoo.com/question/index?qid=20060807064501AAoPdPd').read()
+    soup = BeautifulSoup(page)
+    print "DOC1:",soup.get_text()
+    
+    page = urllib2.urlopen(data2['document'][0]).read()
+    soup = BeautifulSoup(page)
+    print "DOC2:",soup.get_text()
+    
+    
+    print "DOC SCORE :",analyzer.calculate_document_similarity(doc1,doc2)

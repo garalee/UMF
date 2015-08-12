@@ -61,7 +61,14 @@ class UMF_Indexer:
 
         
 
-        
+    # Query Refinement
+    def query_refine(self,q):
+        q = q.replace('\'','')
+        q = q.replace(']','')
+        q = q.replace('[','')
+        q = q.replace(',','')
+        q = q.replace('\"','')
+        return q
 
     # Processing a local file for indexing into Elasticsearch.
     # It reads

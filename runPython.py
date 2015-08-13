@@ -20,16 +20,24 @@ if __name__ == "__main__":
     doc1 = analyzer.getDocumentFromURL(data1['document'][0])
     doc2 = analyzer.getDocumentFromURL(data2['document'][0])
 
+    from goose import Goose
+
+    url = 'https://answers.yahoo.com/question/index?qid=20060807064501AAoPdPd'
+    g = Goose()
+    article = g.extract(url=url)
+    print article.cleaned_text
+
     # print "DOC1 :",doc1
     # print "DOC2 :",doc2
 
-    page = urllib2.urlopen('https://answers.yahoo.com/question/index?qid=20060807064501AAoPdPd').read()
-    soup = BeautifulSoup(page)
-    print "DOC1:",soup.get_text()
+    # page = urllib2.urlopen('https://answers.yahoo.com/question/index?qid=20060807064501AAoPdPd').read()
+    # soup = BeautifulSoup(page)
+    # print "TYPE:",type(soup)
+    # print "DOC1:",soup.find_all('b')
     
-    page = urllib2.urlopen(data2['document'][0]).read()
-    soup = BeautifulSoup(page)
-    print "DOC2:",soup.get_text()
+    # page = urllib2.urlopen(data2['document'][0]).read()
+    # soup = BeautifulSoup(page)
+    # print "DOC2:",soup.get_text()
     
     
-    print "DOC SCORE :",analyzer.calculate_document_similarity(doc1,doc2)
+    # print "DOC SCORE :",analyzer.calculate_document_similarity(doc1,doc2)

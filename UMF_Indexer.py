@@ -18,48 +18,24 @@ class UMF_Indexer:
     def __init__(self):
         self.es = Elasticsearch([{'host':'localhost','port':9200}])
 
-    # build query vector
-    def build_all_query_vector(self,directory):        
-        for idx,f in enumerate(os.listdir(directory)):
-            if f.endswith('.csv'):
-                self.build_qd_vector(directory + '/' +f)
-                print "FILE:",f, "has been Done"
+    # Building Document Map
+    def build_document_map(self,directory):
+        doc_pack = []
+        for f in os.listdir(directory):
+            data = pd.read_csv(open(directory+'/'+f),sep='\t',names=['query','document','time'])
+            for d in data['document']:
+                if not d in doc_pack:
+                    doc_pack.append(d)
 
-    # build document vector
-    def build_query_vector(self,filename):
-        bucket = filename.split('_')
-        name = bucket[0]
-        age = bucket[2]
-        question = bucket[3]
-        
-        data = pd.read_csv(open(filename),sep='\t',names=['query','document','time'])
+        docMap = pd.DataFrame()
 
-        vector = pd.DataFrame()
+        for d in doc_pack:
+            content = self.getDocumentFromURL(d)
+            content = content.replace(r"/",",")
+            docMap = docMap.append(pd.DataFrame({'key' : [d], 'value' : [content.encode('utf-8')]}))
 
-        querySet = []
-
-        for index,entry in data.iterrows():
-            q = entry['query']
-            q = q.replace('\'','')
-            q = q.replace(']','')
-            q = q.replace('[','')
-            q = q.replace(',','')
-            q = q.replace('\"','')
-            
-            if not q in querySet:
-                querySet.append(q)
-            
-            # d = entry['document']
-
-            # if not d in docSet:
-            #     if ('http' in d) or ('https' in d):
-            #         docSet.append(entry['document'])
-
-            
-        # for entry in docSet:
-        #     document = self.getDocumentFromURL(entry)
-
-        
+        docMap.to_csv('doc_test.csv',sep='\t',columns=['key','value'],index=False,encoding='utf-8')
+        return docMap
 
     # Query Refinement
     def query_refine(self,q):
@@ -85,17 +61,14 @@ class UMF_Indexer:
 
         # Remove duplicate queries and documents
         for index,entry in data.iterrows():
-            q = entry['query']
-            q = q.replace('\'','')
-            q = q.replace(']','')
-            q = q.replace('[','')
-            q = q.replace(',','')
-            q = q.replace('\"','')
+            q = self.query_refine(entry['query'])
+            q = q.replace(r"/",",")
             if not q in querySet:
                 querySet.append(q)
             
             d = entry['document']
 
+            # Duplicates not checked
             if not d in docSet:
                 if ('http' in d) or ('https' in d):
                     docSet.append(entry['document'])
@@ -118,7 +91,7 @@ class UMF_Indexer:
         for idx,f in enumerate(os.listdir(directory)):
             if f.endswith('.csv'):
                 self.processFile(directory + '/' +f)
-                print "FILE:",f, "has been Done"
+                print "FILE:",f, "Done"
 
     # Document that each user read is saved in form of URL,
     # this function read all files in the local directory(variable 'directory'),
@@ -137,10 +110,11 @@ class UMF_Indexer:
     # Getting Body Text extracted from Web page
     # Return the extracted document
     def getDocumentFromURL(self,url):
-        extractor = Extractor(extractor='ArticleExtractor',url=url)
-        processed_plaintext = extractor.getText()
-
-        return processed_plaintext
+        from goose import Goose
+        g = Goose()
+        article = g.extract(url=url)
+        return article.cleaned_text
+    
 
     # Query Indexing to Elasticsearch
     # @param : docin {'id': id, 'query' : query, 'question' : question}
@@ -180,4 +154,3 @@ class UMF_Indexer:
         print "Document Indexing(dfr) :",res['created']
         res = self.es.index(index=UMF_Indexer.INDEX_DOCUMENT_NAME + '_ngram',doc_type='document',id=docin['id'],body=docin)
         print "Document Indexing(ngram) :",res['created']
-

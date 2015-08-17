@@ -37,6 +37,9 @@ class UMF_Analyzer:
         qSet1 = self.remove_duplicates(qSet1)
         qSet2 = self.remove_duplicates(qSet2)
 
+        print "Query Set 1:",qSet1
+        print "Query Set 2:",qSet2
+
         scores = {}
         for s in self.scheme:
             scores[s] = 0
@@ -48,18 +51,24 @@ class UMF_Analyzer:
                 score = self.calculate_query_similarity(rQ1,rQ2)
                 for s in self.scheme:
                     scores[s] = scores[s] + score[s]
+
+        cnt = len(qSet1) * len(qSet2)
+        for s in self.scheme:
+            scores[s] = scores[s]/cnt
             
         return scores
                                      
     # This function calculates similarity between two queries
     def calculate_query_similarity(self,q1,q2):
+        print "Q1:",q1
+        print "Q2:",q2
         scores = {}
 
         for s in self.scheme:
             scores[s] = 0
             analyzer = 'my_' + s + '_analyzer'
             content = q1.replace(r"/",",")
-
+            
             res = self.es.search(index=self.umf_query+ '_' + s, q=content,doc_type='query',analyzer=analyzer,size=4000)
             
             for entry in res['hits']['hits']:
@@ -72,14 +81,34 @@ class UMF_Analyzer:
     # Getting Body Text extracted from Web page
     # Return the extracted document
     def getDocumentFromURL(self,url):
-        extractor = Extractor(extractor='DefaultExtractor',url=url)
-        processed_plaintext = extractor.getText()
-
-        return processed_plaintext
-
+        from goose import Goose
+        g = Goose()
+        article = g.extract(url=url)
+        return article.cleaned_text
 
     def calculate_document_similarities(self,dSet1,dSet2):
-        pass
+        dSet1 = self.remove_duplicates(dSet1)
+        dSet2 = self.remove_duplicates(dSet2)
+
+        scores = {}
+        for s in self.scheme:
+            scores[s] = 0
+
+        for d1 in dSet1:
+            for d2 in dSet2:
+                rD1 = self.getDocumentFromURL(d1)
+                rD2 = self.getDocumentFromURL(d2)
+
+                score = self.calculate_document_similarity(rD1,rD2)
+                for s in self.scheme:
+                    scores[s] = scores[s] + score[s]
+
+        cnt = len(dSet1) * len(dSet2)
+        for s in self.scheme:
+            scores[s] = scores[s]/cnt
+
+        return scores
+                
 
     def calculate_document_similarity(self,d1,d2):
         scores = {}
@@ -89,9 +118,11 @@ class UMF_Analyzer:
             analyzer = 'my_' + s + '_analyzer'
             content = d1.replace(r"/",",")
             
-            res = self.es.search(index=self.umf_document+ '_' + s, q=content,doc_type='document',analyzer=analyzer,size = 4000)
+            res = self.es.search(index=self.umf_document+ '_' + s, q=d1,doc_type='document',analyzer=analyzer,size = 4000)
 
             for entry in res['hits']['hits']:
                 if d2 == entry['_source']['document']:
                     scores[s] = entry['_score']
                     break
+
+        return scores

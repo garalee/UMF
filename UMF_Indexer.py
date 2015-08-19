@@ -83,6 +83,7 @@ class UMF_Indexer:
         cnt = 0
         for entry in docSet:
             document = self.getDocumentFromURL(entry)
+            document = document.replace(r"/",",")
             docin = { 'id' : ID + '_' + str(cnt), 'document' : document, 'question' : question}
             self.documentIndexing(docin)
             cnt = cnt + 1
@@ -113,7 +114,8 @@ class UMF_Indexer:
         from goose import Goose
         g = Goose()
         article = g.extract(url=url)
-        return article.cleaned_text
+        text = ''.join([i if ord(i) < 128 else '' for i in article.cleaned_text])
+        return text
     
 
     # Query Indexing to Elasticsearch

@@ -17,6 +17,7 @@ class UMF_Indexer:
     
     def __init__(self):
         self.es = Elasticsearch([{'host':'localhost','port':9200}])
+        self.docMap = pd.read_csv(open('doc_map.csv'),sep='\t',index_col=False)
 
     # Building Document Map
     def build_document_map(self,directory):
@@ -123,11 +124,16 @@ class UMF_Indexer:
     # Getting Body Text extracted from Web page
     # Return the extracted document
     def getDocumentFromURL(self,url):
-        from goose import Goose
-        g = Goose()
-        article = g.extract(url=url)
-        text = ''.join([i if ord(i) < 128 else '' for i in article.cleaned_text])
-        return text
+        
+        for idx,entry in self.docMap.iterrows():
+            if entry['key'] == url:
+                return entry['value']
+
+        # from goose import Goose
+        # g = Goose()
+        # article = g.extract(url=url)
+        # text = ''.join([i if ord(i) < 128 else '' for i in article.cleaned_text])
+        # return text
     
 
     # Query Indexing to Elasticsearch

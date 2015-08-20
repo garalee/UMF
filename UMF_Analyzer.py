@@ -10,7 +10,13 @@ class UMF_Analyzer:
         self.scheme = ['bm25','ib','lmd','lmj','ngram','tfidf','dfr']
         self.umf_query = 'umf_query'
         self.umf_document = 'umf_document'
-        self.docMap = pd.read_csv(open('doc_test.csv'),sep='\t',names=['key','value'],index_col=False)
+        self.docMap = pd.read_csv(open('doc_map.csv'),sep='\t',index_col=False)
+
+    def build_similarity_vector(self):
+        pass
+
+    
+
    
     # remove duplicates
     def remove_duplicates(self,queries):
@@ -120,7 +126,7 @@ class UMF_Analyzer:
                 cnt = cnt+1
         for s in self.scheme:
             avg[s] = avg[s]/cnt
-        print "Average:",avg
+        return avg
 
     
     def calculate_cluster_document_similarity(self,directory, num1,num2):
@@ -152,7 +158,8 @@ class UMF_Analyzer:
     
         for s in self.scheme:
             avg[s] = avg[s]/cnt
-        print "Average:",avg
+    
+        return avg
 
     # This function calculates similarities between two sets of queries.
     # 'function calculate_query_similarity' is called
@@ -199,12 +206,26 @@ class UMF_Analyzer:
     # Getting Body Text extracted from Web page
     # Return the extracted document
     def getDocumentFromURL(self,url):
-        from goose import Goose
-        g = Goose()
-        article = g.extract(url=url)
-        text = ''.join([i if ord(i) < 128 else '' for i in article.cleaned_text])
-        return text
+        # from goose import Goose
+        # g = Goose()
+        # article = g.extract(url=url)
+        # text = ''.join([i if ord(i) < 128 else '' for i in article.cleaned_text])
+        # return text
 
+        for idx,entry in self.docMap.iterrows():
+            if entry['key'] == url:
+                return entry['value']
+
+    def getDocumentIDFromURL(self,url):
+        for idx,entry in self.docMap.iterrows():
+            if entry['key'] == url:
+                return entry['id']
+
+    def getDocumentIDFromDocument(self,document):
+        for idx,entry in self.docMap.iterrows():
+            if entry['value'] == document:
+                return entry['id']
+    
     def calculate_document_similarities(self,dSet1,dSet2):
         dSet1 = self.remove_duplicates(dSet1)
         dSet2 = self.remove_duplicates(dSet2)
@@ -213,13 +234,12 @@ class UMF_Analyzer:
         for s in self.scheme:
             scores[s] = 0
 
+
         for d1 in dSet1:
             for d2 in dSet2:
+
                 rD1 = self.getDocumentFromURL(d1)
                 rD2 = self.getDocumentFromURL(d2)
-
-                print "s1:",rD1
-                print "s2:",rD2
 
                 score = self.calculate_document_similarity(rD1,rD2)
                 for s in self.scheme:
@@ -234,17 +254,17 @@ class UMF_Analyzer:
 
     def calculate_document_similarity(self,d1,d2):
         scores = {}
-
+        
+        ID1 = self.getDocumentIDFromDocument(d1)
+        ID2 = self.getDocumentIDFromDocument(d2)
+    
         for s in self.scheme:
             scores[s] = 0
             analyzer = 'my_' + s + '_analyzer'
-            content = d1.replace(r"/",",")
-            
-            res = self.es.search(index=self.umf_document+ '_' + s, q=content,doc_type='document',analyzer=analyzer,size = 4000)
+            res = self.es.mlt(index=self.umf_document+'_'+s,doc_type='document',id=ID1,search_size=200,analyzer = analyzer)
 
             for entry in res['hits']['hits']:
-                if d2 == entry['_source']['document']:
+                if entry['_id'] == ID2:
                     scores[s] = entry['_score']
-                    break
 
         return scores

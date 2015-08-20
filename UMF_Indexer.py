@@ -46,6 +46,12 @@ class UMF_Indexer:
         q = q.replace('\"','')
         return q
 
+    def document_refine(self,d):
+        d = d.replace(r"/",",")
+        d = d.replace("\t"," ")
+        return d
+        
+
     # Processing a local file for indexing into Elasticsearch.
     # It reads
     def processFile(self,filename):
@@ -58,7 +64,7 @@ class UMF_Indexer:
         querySet = []
         docSet = []
         print "Processing file:",filename
-
+        
         # Remove duplicate queries and documents
         for index,entry in data.iterrows():
             q = self.query_refine(entry['query'])
@@ -78,21 +84,27 @@ class UMF_Indexer:
             docin = { 'id' : ID + '_' + str(cnt), 'query' : entry, 'question': question}
             self.queryIndexing(docin)
             cnt = cnt + 1
-
+        
         # Index document
+        docMap = pd.DataFrame()
         cnt = 0
         for entry in docSet:
             document = self.getDocumentFromURL(entry)
-            document = document.replace(r"/",",")
+            document = self.document_refine(document)
             docin = { 'id' : ID + '_' + str(cnt), 'document' : document, 'question' : question}
             self.documentIndexing(docin)
+            docMap = docMap.append(pd.DataFrame({'id' : [docin['id']], 'key':[entry],'value': [document]}))
             cnt = cnt + 1
+        return docMap
+            
 
     def processAllExperiments(self,directory):
+        docMap = pd.DataFrame()
         for idx,f in enumerate(os.listdir(directory)):
             if f.endswith('.csv'):
-                self.processFile(directory + '/' +f)
+                docMap = docMap.append(self.processFile(directory + '/' +f))
                 print "FILE:",f, "Done"
+        docMap.to_csv('doc_map.csv',sep='\t',columns=['id','key','value'],index=False,encoding='utf-8')
 
     # Document that each user read is saved in form of URL,
     # this function read all files in the local directory(variable 'directory'),

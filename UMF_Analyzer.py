@@ -3,8 +3,10 @@ from sets import Set
 
 import pandas as pd
 import os
+import math
 
 class UMF_Analyzer:
+
     def __init__(self):
         self.es = Elasticsearch([{'host':'localhost', 'port': 9200}])
         self.scheme = ['bm25','ib','lmd','lmj','ngram','tfidf','dfr']
@@ -12,12 +14,14 @@ class UMF_Analyzer:
         self.umf_document = 'umf_document'
         self.docMap = pd.read_csv(open('doc_map.csv'),sep='\t',index_col=False)
 
-    def build_similarity_vector(self):
-        pass
+    # Build Similarity vector between all pairs of users
+    def build_similarity_vector(self,directory,alpha):
+        beta = 1-alpha
+        labels = []
+        for filename in os.listdir(directory):
+            labels.append(filename.split('_')[3])
 
-    
-
-   
+       
     # remove duplicates
     def remove_duplicates(self,queries):
         return Set(queries)
@@ -31,9 +35,23 @@ class UMF_Analyzer:
         q = q.replace('\"','')
         return q
 
-    def inner_similarity_query(self,directory):
+    def display_analysis(self):
+        print "############Query Inner Similarity#############"
+        scores = self.inner_similarity_query('data')
         for i in range(9):
-            print "################################################",i+1,"Question #####"
+            print "######################Q",i+1,"#################"
+            for s in self.scheme:
+                print s,":",scores[i][s]
+
+        print "############Document Inner Similarity#############"
+        scores = self.inner_similarity_document('data')
+        for i in range(9):
+            print "Q",i+1,":",scores[i]
+        
+
+    def inner_similarity_query(self,directory,display=False):
+        l = []
+        for i in range(9):
             files = []
             avg = {}
             cnt = 0
@@ -53,15 +71,42 @@ class UMF_Analyzer:
                     for s in self.scheme:
                         avg[s] = avg[s] + Sim_kj[s]
                     cnt = cnt + 1
-                    print Sim_kj
+                    if display:
+                        print Sim_kj
 
             for s in self.scheme:
                 avg[s] = avg[s]/cnt
-            print "Average:",avg
-        
-    def outer_similairty_document(self,directory):
+
+            l.append(avg)
+        return l
+
+    def inner_similarity_document(self,directory,display=False):
+        l = []
         for i in range(9):
-            print "################################################",i+1,"Question #####"
+            files = []
+            avg = 0
+            cnt = 0
+            
+            for filename in os.listdir(directory):
+                if filename.split('_')[3] == str(i+1) + '.csv':
+                    files.append(filename)
+                    
+            for k in range(len(files)-1):
+                dSet1 = pd.read_csv(open(directory + '/' + files[k]),sep='\t',names=['query','document','time'])
+                for j in range(k+1,len(files)):
+                    dSet2 = pd.read_csv(open(directory + '/' + files[j]),sep='\t',names=['query','document','time'])
+                    Sim_kj = self.calculate_document_similarities(dSet1['document'],dSet2['document'])
+                    
+                    avg = avg+Sim_kj
+                    cnt = cnt + 1
+                    if display:
+                        print Sim_kj
+    
+            l.append(avg/cnt)
+        return l
+
+    def outer_similairty_document(self,directory,display=False):
+        for i in range(9):
             files1 = []
             files2 = []
             cnt = 0
@@ -78,8 +123,6 @@ class UMF_Analyzer:
                 if not filename.split('_')[3] == str(i+1) + '.csv':
                     files2.append(filename)
 
-            
-
 
             for k in range(len(files) -1):
                 qSet1 = pd.read_csv(open(directory + '/' + files[k]),sep='\t',names=['query','document','time'])
@@ -90,7 +133,8 @@ class UMF_Analyzer:
                     for s in self.scheme:
                         avg[s] = avg[s] + Sim_kj[s]
                     cnt = cnt + 1    
-                    print Sim_kj
+                    if display:
+                        print Sim_kj
 
             for s in self.scheme:
                 avg[s] = avg[s]/cnt
@@ -128,15 +172,11 @@ class UMF_Analyzer:
             avg[s] = avg[s]/cnt
         return avg
 
-    
     def calculate_cluster_document_similarity(self,directory, num1,num2):
-        avg = {}
+        avg = 0
         files1 = []
         files2 = []
         cnt = 0
-
-        for s in self.scheme:
-            avg[s] = 0
 
         for filename in os.listdir(directory):
             if filename.split('_')[3] == str(num1) + '.csv':
@@ -151,15 +191,10 @@ class UMF_Analyzer:
             for j in range(i+1,len(files2)):
                 qSet2 = pd.read_csv(open(directory + '/' + files2[j]),sep='\t',names=['query','document','time'])
                 Sim_ij = self.calculate_document_similarities(qSet1['document'],qSet2['document'])
-
-                for s in self.scheme:
-                    avg[s] = avg[s] + Sim_ij[s]
+                avg = avg + Sim_ij
                 cnt = cnt+1
     
-        for s in self.scheme:
-            avg[s] = avg[s]/cnt
-    
-        return avg
+        return avg/cnt
 
     # This function calculates similarities between two sets of queries.
     # 'function calculate_query_similarity' is called
@@ -225,46 +260,68 @@ class UMF_Analyzer:
         for idx,entry in self.docMap.iterrows():
             if entry['value'] == document:
                 return entry['id']
+
+    def document_preprocess(self,dSet):
+        dSet = self.remove_duplicates(dSet) # remove duplicates
+
+        if 'https://google.com/' in dSet:
+            dSett = dSet.remove('https://google.com/')
+        if 'http://google.com/' in dSet:
+            dSet.remove('http://google.com/')
+        if 'http://www.google.com/' in dSet:
+            dSet.remove('http://www.google.com/')
+        if 'https://www.google.com/' in dSet:
+            dSet.remove('https://www.google.com/')
+        if 'http://www.google.co.kr/' in dSet:
+            dSet.remove('http://www.google.co.kr/')
+        if 'http://www.google.com/webhp?hl=en' in dSet:
+            dSet.remove('http://www.google.com/webhp?hl=en')
+        if 'about:blank' in dSet:
+            dSet.remove('about:blank')
+
+        if 'google.com' in dSet:
+            dSet.remove('google.com')
+
+        return dSet
+    
+
     
     def calculate_document_similarities(self,dSet1,dSet2):
-        dSet1 = self.remove_duplicates(dSet1)
-        dSet2 = self.remove_duplicates(dSet2)
+        dSet1 = self.document_preprocess(dSet1)
+        dSet2 = self.document_preprocess(dSet2)
 
-        scores = {}
-        for s in self.scheme:
-            scores[s] = 0
-
-
+        score = 0
         for d1 in dSet1:
             for d2 in dSet2:
 
                 rD1 = self.getDocumentFromURL(d1)
                 rD2 = self.getDocumentFromURL(d2)
+                
 
-                score = self.calculate_document_similarity(rD1,rD2)
-                for s in self.scheme:
-                    scores[s] = scores[s] + score[s]
+                if type(rD1) == float:
+                    if math.isnan(rD1):
+                        continue
+                if type(rD2) == float:
+                    if math.isnan(rD2):
+                        continue
+
+                score = score + self.calculate_document_similarity(rD1,rD2)
 
         cnt = len(dSet1) * len(dSet2)
-        for s in self.scheme:
-            scores[s] = scores[s]/cnt
 
-        return scores
+        return score/cnt
                 
 
     def calculate_document_similarity(self,d1,d2):
-        scores = {}
-        
         ID1 = self.getDocumentIDFromDocument(d1)
         ID2 = self.getDocumentIDFromDocument(d2)
-    
-        for s in self.scheme:
-            scores[s] = 0
-            analyzer = 'my_' + s + '_analyzer'
-            res = self.es.mlt(index=self.umf_document+'_'+s,doc_type='document',id=ID1,search_size=200,analyzer = analyzer)
 
-            for entry in res['hits']['hits']:
-                if entry['_id'] == ID2:
-                    scores[s] = entry['_score']
+        if ID1 == ID2:
+            return 1.0
 
-        return scores
+        score = 0
+        res = self.es.mlt(index=self.umf_document+'_bm25',doc_type='document',id=ID1,search_size=200)
+        for entry in res['hits']['hits']:
+            if entry['_id'] == ID2:
+                return entry['_score']
+        return 0.0

@@ -14,12 +14,13 @@ if __name__ == "__main__":
     # print analyzer.docMap['value']
     # indexer.processAllExperiments('data')
 
-    q_score = analyzer.calculate_cluster_query_similarity('data',1,2)
-    d_score = analyzer.calculate_cluster_document_similarity('data',1,2)
+    # q_score = analyzer.calculate_cluster_query_similarity('data',1,2)
+    # d_score = analyzer.calculate_cluster_document_similarity('data',1,2)
 
-    print "Q Score:",q_score
-    print "D Score:",d_score
+    # print "Q Score:",q_score
+    # print "D Score:",d_score
 
+    analyzer.display_analysis()
     # data1 = pd.read_csv('data/CMS_M_25_2.csv',sep='\t',names=['query','document','time'])
     # data2 = pd.read_csv('data/CSD_M_34_2.csv',sep='\t',names=['query','document','time'])
 
@@ -46,5 +47,4 @@ if __name__ == "__main__":
     # score = analyzer.calculate_document_similarities(data1['document'],data2['document'])
     # print "Scores :",score
 
-    
     

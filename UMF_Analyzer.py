@@ -15,12 +15,40 @@ class UMF_Analyzer:
         self.docMap = pd.read_csv(open('doc_map.csv'),sep='\t',index_col=False)
 
     # Build Similarity vector between all pairs of users
-    def build_similarity_vector(self,directory,alpha):
-        beta = 1-alpha
+    def build_similarity_vector(self,directory):
         labels = []
         for filename in os.listdir(directory):
             labels.append(filename.split('_')[3])
+            
+        v = []
+        # Build Query Similarity Vector
+        for filename1 in os.listdir(directory):
+            data1 = pd.read_csv(open(directory + '/'+filename1),sep='\t',names=['query','document','time'])
+            v.append([])
+            for filename2 in os.listdir(directory):
+                data2 = pd.read_csv(open(directory + '/' + filename2),sep='\t',names=['query','document','time'])
+                sim = self.calculate_query_similarities(data1['query'],data2['query'])
+                v.append(sim)
 
+        print v
+
+        vectors = {}
+        for s in self.scheme:
+            vectors[s] = pd.DataFrame()
+            for i in v:
+                temp = []
+                for j in i:
+                    temp.append(j[s])
+                vectors[s] = vectors[s].append(pd.DataFrame(temp))
+                print temp
+
+        print 'test'
+        print vectors['ngram']
+                
+                    
+
+                
+        
        
     # remove duplicates
     def remove_duplicates(self,queries):
@@ -246,11 +274,13 @@ class UMF_Analyzer:
         # article = g.extract(url=url)
         # text = ''.join([i if ord(i) < 128 else '' for i in article.cleaned_text])
         # return text
-
+        
         for idx,entry in self.docMap.iterrows():
             if entry['key'] == url:
+                if type(entry['value']) == float:
+                    return None
                 return entry['value']
-
+            
     def getDocumentIDFromURL(self,url):
         for idx,entry in self.docMap.iterrows():
             if entry['key'] == url:
@@ -293,17 +323,11 @@ class UMF_Analyzer:
         score = 0
         for d1 in dSet1:
             for d2 in dSet2:
-
                 rD1 = self.getDocumentFromURL(d1)
                 rD2 = self.getDocumentFromURL(d2)
-                
 
-                if type(rD1) == float:
-                    if math.isnan(rD1):
-                        continue
-                if type(rD2) == float:
-                    if math.isnan(rD2):
-                        continue
+                if rD2 == None or rD1 == None:
+                    continue
 
                 score = score + self.calculate_document_similarity(rD1,rD2)
 

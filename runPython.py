@@ -9,10 +9,11 @@ if __name__ == "__main__":
     indexer = UMF_Indexer.UMF_Indexer()
     analyzer = UMF_Analyzer.UMF_Analyzer()
 
-    #analyzer.inner_similarity_query('data')
-    #indexer.build_document_map('data')
+    # analyzer.inner_similarity_query('data')
+    # indexer.build_document_map('data')
     # print analyzer.docMap['value']
-    indexer.processAllExperiments('data')
+    # indexer.processAllExperiments('data')
+    analyzer.build_similarity_vector('data')
 
     # q_score = analyzer.calculate_cluster_query_similarity('data',1,2)
     # d_score = analyzer.calculate_cluster_document_similarity('data',1,2)

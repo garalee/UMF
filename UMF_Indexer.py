@@ -3,6 +3,8 @@ import os
 import urllib
 import urllib2
 
+import math
+
 from sets import Set
 from boilerpipe.extract import Extractor
 
@@ -90,7 +92,12 @@ class UMF_Indexer:
         docMap = pd.DataFrame()
         cnt = 0
         for entry in docSet:
+            print "ENTRY:",entry
             document = self.getDocumentFromURL(entry)
+            print "Doc:",document
+            if document == None:
+                continue
+            
             document = self.document_refine(document)
             docin = { 'id' : ID + '_' + str(cnt), 'document' : document, 'question' : question}
             self.documentIndexing(docin)
@@ -127,6 +134,8 @@ class UMF_Indexer:
         
         for idx,entry in self.docMap.iterrows():
             if entry['key'] == url:
+                if type(entry['value']) == float:
+                    return None
                 return entry['value']
 
         # from goose import Goose

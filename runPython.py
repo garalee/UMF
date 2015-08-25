@@ -13,7 +13,8 @@ if __name__ == "__main__":
     # indexer.build_document_map('data')
     # print analyzer.docMap['value']
     # indexer.processAllExperiments('data')
-    analyzer.build_similarity_vector('data')
+    vectors = analyzer.build_similarity_vector('data')
+    print vectors['tfidf']
 
     # q_score = analyzer.calculate_cluster_query_similarity('data',1,2)
     # d_score = analyzer.calculate_cluster_document_similarity('data',1,2)

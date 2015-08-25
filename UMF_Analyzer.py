@@ -17,25 +17,47 @@ class UMF_Analyzer:
     # Build Similarity vector between all pairs of users
     def build_similarity_vector(self,directory):
         labels = []
+        ids = []
+        
         for filename in os.listdir(directory):
-            labels.append(filename.split('_')[3])
+            labels.append(filename.split('_')[3].split('.')[0])
+            ids.append(filename.split('.')[0])
+            
         qVector = {}
         for s in self.scheme:
             qVector[s] = pd.DataFrame()
 
+            
         # Build Query Similarity Vector
-        for idx,filename1 in enumerate(os.listdir(directory)):
+        cnt = 0
+        for filename1 in os.listdir(directory):
             data1 = pd.read_csv(open(directory + '/'+filename1),sep='\t',names=['query','document','time'])
-            v=[]
+            pivot_id = filename1.split('.')[0]
+            v={}
+    
+            for s in self.scheme:
+                v[s] = []
+                
             for filename2 in os.listdir(directory):
                 data2 = pd.read_csv(open(directory + '/' + filename2),sep='\t',names=['query','document','time'])
                 sim = self.calculate_query_similarities(data1['query'],data2['query'])
+                #print "similarity:",sim
+    
                 for s in self.scheme:
-                    sim[s]
-                    v.append(sim)
+                    v[s].append(sim[s])
+            
             for s in self.scheme:
-                
+                temp = {}
+                for idx,l in enumerate(ids):
+                    temp[l] = v[s][idx]
 
+                a = pd.DataFrame(temp,index=[pivot_id],columns=ids)
+                qVector[s] = qVector[s].append(a)
+
+            cnt = cnt + 1
+                                               
+        return qVector
+        
         
         #print pd.DataFrame(v)
         # vectors = {}
@@ -235,7 +257,7 @@ class UMF_Analyzer:
     def calculate_query_similarities(self,qSet1,qSet2):
         qSet1 = self.remove_duplicates(qSet1)
         qSet2 = self.remove_duplicates(qSet2)
-
+        
         scores = {}
         for s in self.scheme:
             scores[s] = 0
@@ -244,6 +266,7 @@ class UMF_Analyzer:
             for q2 in qSet2:
                 rQ1 = self.query_refine(q1)
                 rQ2 = self.query_refine(q2)
+
                 score = self.calculate_query_similarity(rQ1,rQ2)
                 for s in self.scheme:
                     scores[s] = scores[s] + score[s]
@@ -262,14 +285,13 @@ class UMF_Analyzer:
             scores[s] = 0
             analyzer = 'my_' + s + '_analyzer'
             content = q1.replace(r"/",",")
-            
             res = self.es.search(index=self.umf_query+ '_' + s, q=content,doc_type='query',analyzer=analyzer,size=4000)
             
             for entry in res['hits']['hits']:
                 if q2 == entry['_source']['query']:
                     scores[s] = entry['_score']
                     break
-
+                    
         return scores
 
     # Getting Body Text extracted from Web page

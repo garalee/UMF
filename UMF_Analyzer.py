@@ -19,31 +19,37 @@ class UMF_Analyzer:
         labels = []
         for filename in os.listdir(directory):
             labels.append(filename.split('_')[3])
-            
-        v = []
+        qVector = {}
+        for s in self.scheme:
+            qVector[s] = pd.DataFrame()
+
         # Build Query Similarity Vector
-        for filename1 in os.listdir(directory):
+        for idx,filename1 in enumerate(os.listdir(directory)):
             data1 = pd.read_csv(open(directory + '/'+filename1),sep='\t',names=['query','document','time'])
-            v.append([])
+            v=[]
             for filename2 in os.listdir(directory):
                 data2 = pd.read_csv(open(directory + '/' + filename2),sep='\t',names=['query','document','time'])
                 sim = self.calculate_query_similarities(data1['query'],data2['query'])
-                v.append(sim)
+                for s in self.scheme:
+                    sim[s]
+                    v.append(sim)
+            for s in self.scheme:
+                
 
-        print v
+        
+        #print pd.DataFrame(v)
+        # vectors = {}
+        # for s in self.scheme:
+        #     vectors[s] = pd.DataFrame()
+        #     for i in v:
+        #         temp = []
+        #         for j in i:
+        #             temp.append(j[s])
+        #         vectors[s] = vectors[s].append(pd.DataFrame(temp))
+        #         print temp
 
-        vectors = {}
-        for s in self.scheme:
-            vectors[s] = pd.DataFrame()
-            for i in v:
-                temp = []
-                for j in i:
-                    temp.append(j[s])
-                vectors[s] = vectors[s].append(pd.DataFrame(temp))
-                print temp
-
-        print 'test'
-        print vectors['ngram']
+        # print 'test'
+        # print vectors['ngram']
                 
                     
 

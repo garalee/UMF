@@ -14,7 +14,8 @@ if __name__ == "__main__":
     # print analyzer.docMap['value']
     # indexer.processAllExperiments('data')
     vectors = analyzer.build_similarity_vector('data')
-    print vectors['tfidf']
+    for i in vectors:
+        analyzer.save_mat('vector/'+i+'.mat',vectors[i])
 
     # q_score = analyzer.calculate_cluster_query_similarity('data',1,2)
     # d_score = analyzer.calculate_cluster_document_similarity('data',1,2)

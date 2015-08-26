@@ -5,6 +5,8 @@ import pandas as pd
 import os
 import math
 
+import scipy.io as sio
+
 class UMF_Analyzer:
 
     def __init__(self):
@@ -13,6 +15,11 @@ class UMF_Analyzer:
         self.umf_query = 'umf_query'
         self.umf_document = 'umf_document'
         self.docMap = pd.read_csv(open('doc_map.csv'),sep='\t',index_col=False)
+
+    # Save vector as mat file
+    def save_mat(self,filename,vector):
+        v = vector.as_matrix()
+        sio.savemat(filename,{'data':v})
 
     # Build Similarity vector between all pairs of users
     def build_similarity_vector(self,directory):
@@ -29,7 +36,6 @@ class UMF_Analyzer:
 
             
         # Build Query Similarity Vector
-        cnt = 0
         for filename1 in os.listdir(directory):
             data1 = pd.read_csv(open(directory + '/'+filename1),sep='\t',names=['query','document','time'])
             pivot_id = filename1.split('.')[0]
@@ -40,11 +46,13 @@ class UMF_Analyzer:
                 
             for filename2 in os.listdir(directory):
                 data2 = pd.read_csv(open(directory + '/' + filename2),sep='\t',names=['query','document','time'])
-                sim = self.calculate_query_similarities(data1['query'],data2['query'])
+                qSim = self.calculate_query_similarities(data1['query'],data2['query'])
+                dSim = self.calculate_document_similarities(data1['document'],data2['document'])
+                
                 #print "similarity:",sim
     
                 for s in self.scheme:
-                    v[s].append(sim[s])
+                    v[s].append(qSim[s])
             
             for s in self.scheme:
                 temp = {}
@@ -53,10 +61,11 @@ class UMF_Analyzer:
 
                 a = pd.DataFrame(temp,index=[pivot_id],columns=ids)
                 qVector[s] = qVector[s].append(a)
+                
+        # Build Document Similarity Vector
 
-            cnt = cnt + 1
-                                               
-        return qVector
+        
+        return qVector,dVector
         
         
         #print pd.DataFrame(v)
